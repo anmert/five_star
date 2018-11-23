@@ -1,0 +1,1478 @@
+@charset "utf-8"
+@import "bourbon"
+
+*::-webkit-input-placeholder
+	color: #87888a
+*:-moz-placeholder
+	color: #87888a
+*::-moz-placeholder
+	color: #87888a
+*:-ms-input-placeholder
+	color: #87888a
+
+body input:focus,
+body textarea:focus
+	&::-webkit-input-placeholder
+		opacity: .3
+	&:-moz-placeholder
+		opacity: .3
+	&::-moz-placeholder
+		opacity: .3
+	&:-ms-input-placeholder
+		opacity: .3
+
+
++font-face("Museo Sans Cyrl", "../fonts/MuseoSansCyrl-300/MuseoSansCyrl-300", $file-formats: eot woff ttf, $weight: 300)
++font-face("Museo Sans Cyrl", "../fonts/MuseoSansCyrl-500/MuseoSansCyrl-500", $file-formats: eot woff ttf, $weight: 500)
++font-face("Helvetica Neue Cyr", "../fonts/HelveticaNeueCyr-Light/HelveticaNeueCyr-Light", $file-formats: eot woff ttf, $weight: 300)
++font-face("Proxima Nova", "../fonts/ProximaNova-Regular/ProximaNova-Regular", $file-formats: eot woff ttf, $weight: 400)
++font-face("Proxima Nova", "../fonts/ProximaNova-Extrabld/ProximaNova-Extrabld", $file-formats: eot woff ttf, $weight: 800)
++font-face("Century Gothic", "../fonts/CenturyGothic/CenturyGothic", $file-formats: eot woff ttf, $weight: 400)
++font-face("Century Gothic", "../fonts/CenturyGothic-Bold/CenturyGothic-Bold", $file-formats: eot woff ttf, $weight: 700)
+
+h2
+	color: #037aa9
+	font-size: 48px
+	font-weight: 500
+	line-height: 45px
+	margin-bottom: 30px
+	text-align: center
+
+.description
+	text-align: center
+	margin-bottom: 40px
+
+.about
+	padding: 40px 0 70px
+	.section_content
+		.about_items
+			padding: 15px 0 0
+			margin: 0 -25px
+			display: flex
+			flex-wrap: wrap
+			.about_item
+				width: 25%
+				padding: 0 25px
+				.about_item_image
+					width: 100%
+					border-radius: 10px
+					margin-bottom: 20px
+				.title
+					font-size: 22px
+					font-weight: 500
+					line-height: 21px
+
+.relax
+	padding: 50px 0 60px
+	background-color: #f7faff
+	.section_content
+		.relax_items
+			padding: 15px 0 0
+			margin: 0 -12px
+			display: flex
+			flex-wrap: wrap
+			.relax_item
+				width: 25%
+				padding: 0 12px 25px
+				.icon_wrap
+					width: 120px
+					height: 120px
+					display: flex
+					align-items: center
+					justify-content: center
+					border: 2px solid #037aa9
+					border-radius: 50%
+					margin-bottom: 25px
+				.title
+					font-size: 22px
+					font-weight: 500
+					line-height: 21px
+					margin-bottom: 30px
+
+.advantages
+	padding: 70px 0
+	.section_content
+		display: flex
+		margin: 0 -20px
+		.image_wrap
+			width: 50%
+			padding: 0 20px
+			img
+				width: 100%
+				position: relative
+				z-index: 1
+				border-radius: 5px
+				box-shadow: 5px 15px 40px rgba(0, 0, 0, 0.25)
+		.text_wrap
+			width: 50%
+			padding: 15px 20px
+			h2
+				text-align: left
+			.text
+				margin-bottom: 25px
+			.advantages_items
+				display: flex
+				flex-wrap: wrap
+				justify-content: space-between
+				.advantages_item
+					padding: 0 15px 30px
+					display: flex
+					align-items: center
+					.advantages_icon
+						display: inline-block
+						margin-right: 20px
+					.title
+						font-size: 22px
+						font-weight: 500
+						line-height: 21px
+			.show_teem
+				padding: 10px 20px
+				border-radius: 5px
+				border: 2px solid #037aa9
+				color: #037aa9
+				font-size: 12px
+				line-height: 14px
+				display: inline-block
+				&:hover, &.active
+					color: #ff800f
+					border: 2px solid #ff800f
+				&.active
+					.lnr
+						transform: rotate(180deg)
+				.lnr
+					color: #ff800f
+					position: relative
+					top: 2px
+					font-size: 14px
+					font-weight: 900
+					margin-left: 10px
+					display: inline-block
+
+.team
+	display: none
+	padding: 90px 0 15px
+	background-color: #f7faff
+	border-top: 2px solid #037aa9
+	border-bottom: 2px solid #037aa9
+	margin-top: -100px
+	.section_content
+		.team_items
+			padding: 15px 0 0
+			display: flex
+			flex-wrap: wrap
+			.team_item
+				width: 25%
+				text-align: center
+				padding: 10px 16px 25px
+				.stars
+					margin-bottom: 18px
+					i
+						color: #ff800f
+						margin: 0 3px
+				.team_photo
+					border-radius: 50%
+					width: 180px
+					max-width: 100%
+					margin-bottom: 15px
+					display: inline-block
+				.name
+					font-size: 22px
+					font-weight: 400
+					line-height: 24px
+				.position
+					color: #037aa9
+					margin-bottom: 5px
+				hr
+					width: 120px
+					border: none
+					margin: 0 auto 7px
+					border-bottom: 2px solid #ff800f
+				.text
+					font-size: 14px
+					line-height: 16px
+
+.services
+	padding: 68px 0 0
+	.section_content
+		.services_items
+			.services_item
+				border-radius: 10px
+				margin-bottom: 50px
+				position: relative
+				z-index: 1
+				display: flex
+				overflow: hidden
+				box-shadow: 5px 15px 40px rgba(0, 0, 0, 0.25)
+				.text_wrap
+					width: 50%
+					padding: 45px 15px 15px
+					background-color: #f7faff
+					.title
+						color: #037aa9
+						font-size: 22px
+						font-weight: 500
+						line-height: 21px
+						margin-bottom: 15px
+				.image_wrap
+					width: 50%
+					img
+						min-width: 100%
+						min-height: 100%
+				&:nth-child(odd)
+					.text_wrap
+						text-align: right
+						padding-right: 45px
+				&:nth-child(even)
+					.text_wrap
+						order: 1
+				&:nth-child(4)
+					.text_wrap
+						padding-top: 30px
+				&:nth-child(5)
+					.text_wrap
+						padding-top: 20px
+
+.go_to_top
+	position: fixed
+	right: 30px
+	bottom: 30px
+	width: 44px
+	height: 44px
+	line-height: 28px
+	cursor: pointer
+	z-index: 10
+	border-radius: 50%
+	text-align: center
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16)
+	background-color: #ffffff
+	opacity: 0.9
+	transition: all .4s
+	i
+		position: relative
+		top: 8px
+		color: #1da3d6
+		font-size: 14px
+		transition: all .4s
+	&:hover
+		background-color: #089cd5
+		i
+			color: #fff
+
+
+.video_block
+	position: relative
+	background-position: center
+	background-repeat: no-repeat
+	background-size: cover
+	height: 764px
+	margin-top: -120px
+	display: flex
+	align-items: center
+	justify-content: center
+	.text_wrap
+		text-align: center
+		.video_title
+			text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5)
+			color: #ffffff
+			font-size: 64px
+			font-weight: 500
+			line-height: 75px
+			margin-bottom: 43px
+			text-transform: uppercase
+		.show_video
+			padding: 8px 120px 8px 15px
+			border-radius: 10px
+			border: 2px solid #ffffff
+			color: #ffffff
+			font-size: 18px
+			font-weight: 500
+			line-height: 21px
+			display: inline-block
+			text-align: right
+			text-transform: uppercase
+			position: relative
+			&:before
+				content: "\f04b"
+				position: absolute
+				font-weight: 900
+				right: 23px
+				top: 50%
+				font-size: 20px
+				font-family: Font Awesome\ 5 Free
+				width: 80px
+				height: 80px
+				line-height: 80px
+				text-align: center
+				border-radius: 50%
+				transition: all 0.4s
+				transform: translateY(-50%)
+				box-shadow: 0 4px 8px rgba(66, 165, 245, 0.5)
+				background-color: #ff800f
+			&:hover
+				&:before
+					background-color: #e4710b
+
+.select_wrap
+	padding: 78px 0 30px
+	position: relative
+	z-index: 2
+	position: relative
+	.select_items
+		display: flex
+		padding-top: 20px
+		margin: 0 -30px 0
+		.select_item
+			width: 50%
+			padding: 0 30px
+			.image_wrap
+				img
+					width: 100%
+					border-radius: 10px
+					box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25)
+			.text_wrap
+				width: calc(100% - 88px)
+				margin-left: 44px
+				padding: 30px 40px
+				box-shadow: 5px 20px 40px rgba(0, 0, 0, 0.15)
+				border-radius: 10px
+				margin-top: -72px
+				z-index: 1
+				position: relative
+				background-color: #ffffff
+				.title
+					font-size: 22px
+					font-weight: 500
+					line-height: 21px
+					margin-bottom: 18px
+				.desc
+					border-bottom: 2px solid #ff800f
+					padding-bottom: 6px
+				.params
+					padding-top: 6px
+					display: flex
+					flex-wrap: wrap
+					.param
+						padding-bottom: 10px
+						&:nth-child(odd)
+							width: 70%
+						&:nth-child(even)
+							width: 30%
+						.param_title
+							font-weight: 700
+				.price
+					border-radius: 5px
+					border: 1px solid #c4c4c4
+					padding: 10px
+					display: flex
+					width: 242px
+					justify-content: space-between
+					margin: 0 auto 16px
+					.cur
+						text-shadow: 0 4px 20px rgba(66, 165, 245, 0.5)
+						color: #037aa9
+						font-family: "Century Gothic"
+						font-size: 17px
+						font-weight: 700
+						min-width: 45px
+						line-height: 20px
+						padding-right: 15px
+						border-right: 1px solid #c4c4c4
+						text-transform: uppercase
+					.val
+						padding-right: 20px
+						border-right: 1px solid #c4c4c4
+						span
+							display: none
+							&.active
+								display: block
+					.dat
+						text-transform: uppercase
+				.btn_style
+					width: 100%
+					padding: 18px 12px
+					box-shadow: 0 4px 20px rgba(66, 165, 245, 0.5)
+
+	.select-hidden
+		display: none
+		visibility: hidden
+		padding-right: 10px
+
+	.select
+		cursor: pointer
+		display: inline-block
+		position: relative
+		background-color: #ffffff
+		font-size: 14px
+		color: #333
+		width: 100%
+		text-align: left
+
+	.select-styled
+		color: #037aa9
+		font-size: 17px
+		font-weight: 700
+		line-height: 20px
+		text-transform: uppercase
+		font-family: "Century Gothic"
+		text-shadow: 0 4px 20px rgba(66, 165, 245, 0.5)
+		&:after
+			content: "\f078"
+			width: 0
+			height: 0
+			position: absolute
+			top: 0px
+			right: -2px
+			font-size: 10px
+			font-weight: 900
+			font-family: Font Awesome\ 5 Free
+
+		&:active, &.active
+			&:after
+				content: "\f077"
+
+	.select-options
+		display: none
+		position: absolute
+		top: 100%
+		width: calc(100% + 27px)
+		right: 0
+		left: -11px
+		z-index: 999
+		margin: 0
+		padding: 0 0 10px
+		border-radius: 0 0 10px 10px
+		list-style: none
+		border: 1px solid #c4c4c4
+		border-top: none
+		background-color: #fff
+		li
+			margin: 0
+			padding: 6px 0
+			color: #2d2d2d
+			font-size: 14px
+			font-weight: 600
+			line-height: 21.6px
+			position: relative
+			padding-left: 10px
+			&:hover
+				color: #089cd5
+			&.active
+				color: #089cd5
+
+
+			&[rel="hide"]
+				display: none
+
+
+
+.routes
+	padding: 30px 0 50px
+	z-index: 2
+	position: relative
+	.section_content
+		.custom_height
+			height: 780px
+		.buttons
+			display: flex
+			align-items: center
+			justify-content: center
+			a
+				margin: 0 10px
+
+.video_presentation
+	padding: 65px 0
+	z-index: 2
+	position: relative
+	.section_content
+		display: flex
+		margin: 0 -25px
+		.image_wrap
+			width: 50%
+			padding: 0 20px
+			position: relative
+			img
+				width: 100%
+				border-radius: 10px
+			.video_play
+				position: absolute
+				top: 50%
+				left: 50%
+				width: 80px
+				height: 80px
+				text-align: center
+				border-radius: 50%
+				transition: all 0.4s
+				transform: translate(-50%, -50%)
+				box-shadow: 0 4px 8px rgba(66, 165, 245, 0.5)
+				background-color: #ff800f
+				i
+					color: #fff
+					font-size: 20px
+					line-height: 80px
+				&:hover
+					background-color: #e4710b
+		.text_wrap
+			width: 50%
+			padding: 0 20px
+			.title
+				text-shadow: 5px 15px 30px #037aa9
+				color: #ffffff
+				font-size: 48px
+				font-weight: 400
+				line-height: 45px
+				padding-right: 80px
+	.custom_height_2
+		height: 160px
+
+.menu_wrap
+	padding: 50px 0 150px
+	z-index: 1
+	position: relative
+	background-color: #f6faff
+	.bg3
+		display: none
+		z-index: -1
+		position: absolute
+		left: 50%
+		margin-left: -720px
+		bottom: -20px
+	.bg3_2
+		z-index: -1
+		position: absolute
+		left: 50%
+		margin-left: -960px
+		bottom: 20px
+	.bg3_3
+		display: none
+		z-index: -1
+		position: absolute
+		left: 50%
+		margin-left: -960px
+		bottom: 20px
+	.section_content
+		h2
+			color: #fff
+		.description
+			padding: 10px 0
+			color: #fff
+		.menu_items
+			display: flex
+			flex-wrap: wrap
+			margin: 0 -9px
+			.menu_item
+				width: 33.33%
+				padding: 0 9px
+				margin-bottom: 37px
+				.menu_img
+					border-radius: 10px
+					width: 100%
+					margin-bottom: 20px
+					box-shadow: 5px 15px 40px rgba(0, 0, 0, 0.25)
+				.text_wrap
+					display: flex
+					align-items: center
+					justify-content: space-between
+					.title
+						width: 50%
+						color: #ffffff
+						font-size: 22px
+						font-weight: 500
+						line-height: 21px
+						padding-right: 10px
+					.btn_style_2
+						width: 50%
+						cursor: pointer
+
+.reviews
+	padding: 20px 0 40px
+	z-index: 1
+	position: relative
+	background-color: #f6faff
+	.section_content
+		.reviews_items
+			width: 875px
+			max-width: 100%
+			margin: 0 auto
+			.reviews_item
+				display: flex
+				padding: 30px 30px 40px
+				.text_wrap
+					width: 50%
+					z-index: 1
+					padding-top: 20px
+					.text_wrap_content
+						width: calc(100% + 20px)
+						color: #ffffff
+						padding: 20px
+						box-shadow: 0 4px 20px rgba(66, 165, 245, 0.5)
+						border-radius: 10px
+						background-color: #037aa9
+				.image_wrap
+					width: 50%
+					img
+						width: 100%
+						border-radius: 10px
+						box-shadow: 5px 15px 40px rgba(0, 0, 0, 0.25)
+			.slick-arrow
+				z-index: 1
+				position: absolute
+				top: 50%
+				transform: translateY(-50%)
+				border: none
+				font-size: 0
+				color: #ff800f
+				cursor: pointer
+				background-color: transparent
+				font-family: Linearicons-Free
+				speak: none
+				font-style: normal
+				font-weight: 900
+				font-variant: normal
+				text-transform: none
+				line-height: 1
+				-webkit-font-smoothing: antialiased
+				&.slick-prev
+					left: -15px
+					&:before
+						content: "\e875"
+						font-size: 20px
+				&.slick-next
+					right: -15px
+					&:before
+						content: "\e876"
+						font-size: 20px
+			.slick-dots
+				position: absolute
+				bottom: 55px
+				right: calc(50% + 15px)
+				li
+					display: inline-block
+					margin: 0 5px
+					button
+						width: 10px
+						height: 10px
+						margin: 0
+						padding: 0
+						font-size: 0
+						border: none
+						border-radius: 50%
+						background-color: #c4c4c4
+					&.slick-active
+						button
+							background-color: #037aa9
+
+
+.steps
+	padding: 50px 0
+	z-index: 0
+	position: relative
+	background-color: #f8faff
+	.bg4
+		z-index: -1
+		position: absolute
+		width: 100%
+		bottom: -200px
+	.section_content
+		.steps_items
+			padding: 55px 60px 0
+			display: flex
+			.steps_item
+				width: calc(33.33% - 100px)
+				margin: 0 50px 55px
+				padding: 20px
+				box-shadow: 0 4px 20px rgba(66, 165, 245, 0.5)
+				border-radius: 10px
+				background-color: #ffffff
+				position: relative
+				.title
+					font-size: 22px
+					font-weight: 500
+					margin-bottom: 10px
+				.num
+					position: absolute
+					width: 74px
+					height: 74px
+					border-radius: 50%
+					text-align: center
+					box-shadow: 0 4px 20px rgba(66, 165, 245, 0.5)
+					background-color: #037aa9
+					line-height: 74px
+					color: #ffffff
+					font-family: "Proxima Nova"
+					font-size: 36px
+					font-weight: 700
+					top: -21px
+					right: -21px
+
+.faq
+	padding: 40px 0
+	z-index: 1
+	position: relative
+	.section_content
+		.faq_items
+			width: 600px
+			max-width: 100%
+			margin: 0 auto
+			.faq_item
+				box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25)
+				border-radius: 5px
+				background-color: #ffffff
+				width: 100%
+				padding: 12px 15px
+				margin-bottom: 15px
+				.question
+					font-size: 22px
+					font-weight: 500
+					position: relative
+					cursor: pointer
+					transition: all 0.4s
+					&:after
+						content: "\e874"
+						position: absolute
+						right: 5px
+						top: 5px
+						color: #c4c4c4
+						font-size: 18px
+						font-weight: 900
+						font-family: Linearicons-Free
+						speak: none
+						transition: all 0.4s
+						font-style: normal
+						font-weight: 400
+						font-variant: normal
+						text-transform: none
+						line-height: 1
+						-webkit-font-smoothing: antialiased
+				.answer
+					padding: 0 7px 25px
+					display: none
+				&.active
+					.question
+						color: #037aa9
+						padding-bottom: 8px
+						margin-bottom: 10px
+						border-bottom: 2px solid #ff800f
+						&:after
+							color: #ff800f
+							transform: rotate(180deg)
+		.button_center_wrap
+			margin-top: 12px
+			width: 100%
+			display: inline-block
+
+.map
+	padding: 70px 0 0
+	.section_content
+		display: flex
+		padding: 0 105px
+		.map_left
+			width: 72%
+			overflow: hidden
+			border-radius: 10px
+			iframe
+				width: 100%
+		.map_right
+			width: 28%
+			padding: 17px 0 0 33px
+			.title
+				font-size: 12px
+				line-height: 14px
+				font-weight: 700
+				font-family: "Century Gothic"
+			.text
+				font-size: 12px
+				line-height: 14px
+				font-weight: 400
+				margin-bottom: 20px
+				font-family: "Century Gothic"
+			.btn_style
+				padding: 9px 12px
+				max-width: 200px
+
+footer
+	padding: 408px 0 10px
+	position: relative
+	z-index: 1
+	overflow: hidden
+	.bg_footer
+		position: absolute
+		top: 0
+		z-index: -2
+		left: 50%
+		margin-left: -940px
+	.footer_content
+		display: flex
+		z-index: 1
+		justify-content: center
+		align-items: flex-end
+		.social_links
+			a
+				display: inline-block
+				margin: 0 5px
+		.footer_logo
+			margin: 0 40px
+		.footer_text
+			font-size: 12px
+			line-height: 14px
+			text-transform: uppercase
+
+.menu_slider
+	.menu_slider_item
+		display: flex!important
+		align-items: flex-start
+		margin: 0 -10px
+		.left_wrap
+			width: 50%
+			display: flex
+			align-items: flex-start
+			.image_thubn_slider
+				width: 140px
+				flex-shrink: 0
+				padding: 0 10px
+				img
+					margin-bottom: 27px
+					cursor: pointer
+			.image_slider
+				width: calc(100% - 140px)
+				padding: 0 10.2px
+				img
+					width: 100%
+					border-radius: 5px
+				.slick-arrow
+					position: absolute
+					top: 50%
+					background: none
+					border: none
+					font-size: 0
+					width: 20px
+					height: 20px
+					z-index: 1
+					padding: 0
+					margin-top: -10px
+					cursor: pointer
+					text-align: center
+					line-height: 20px
+					&:before
+						content: ''
+						color: #fff
+						font-size: 20px
+						font-family: Linearicons-Free
+						speak: none
+						font-style: normal
+						font-weight: 900
+						font-variant: normal
+						text-transform: none
+						line-height: 1
+						-webkit-font-smoothing: antialiased
+					&.slick-prev
+						left: 20px
+						&:before
+							content: '\e875'
+					&.slick-next
+						right: 20px
+						&:before
+							content: '\e876'
+		.right_wrap
+			width: 50%
+			padding: 0 10px
+			text-align: left
+			.title
+				color: #0064ff
+				font-size: 48px
+				font-weight: 500
+				line-height: 45px
+				margin-bottom: 10px
+			.icon_title
+				font-size: 22px
+				font-weight: 500
+				margin-bottom: 10px
+				img
+					margin-right: 12px
+					display: inline-block
+			.text
+				font-size: 12px
+				line-height: 14px
+				margin-bottom: 12px
+				font-family: "Century Gothic"
+			.btn_style
+				margin-top: 8px
+				margin-bottom: 20px
+
+.prices_table
+	.prices_table_wrap
+		display: flex
+		position: relative
+		&:after
+			content: ''
+			position: absolute
+			bottom: 45px
+			width: 100%
+			height: 2px
+			background-color: #037aa9
+		.first_item
+			width: 22%
+			padding: 60px 15px 0
+			.text_1
+				text-align: right
+				font-size: 14px
+				line-height: 16px
+				margin-bottom: 20px
+				text-transform: uppercase
+				span
+					font-weight: 500
+			.text_2
+				font-weight: 500
+				text-align: right
+				font-size: 14px
+				line-height: 16px
+				text-transform: uppercase
+		.item
+			width: 13%
+			padding: 0 15px
+			text-align: center
+			.title
+				height: 50px
+				padding: 5px
+				border-radius: 5px
+				border: 2px solid #037aa9
+				background-color: #ffffff
+				font-size: 14px
+				line-height: 16px
+				display: flex
+				align-items: center
+				justify-content: center
+			.text_1
+				height: 50px
+				font-weight: 500
+				font-size: 14px
+				line-height: 16px
+				display: flex
+				align-items: center
+				justify-content: center
+			.text_2
+				height: 50px
+				font-weight: 500
+				font-size: 14px
+				line-height: 16px
+				display: flex
+				align-items: center
+				justify-content: center
+
+.menu_bottom_slider
+	padding: 0 20px
+	.slick-list
+		padding: 30px 0
+	.item
+		margin: 0 5px
+		cursor: pointer
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center
+		color: #ffffff
+		height: 68px
+		font-size: 22px
+		font-weight: 500
+		display: flex!important
+		text-align: left
+		align-items: center
+		border-radius: 5px
+		padding: 5px 5px 5px 25px
+		text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75)
+		box-shadow: -2px 4px 8px rgba(0,0,0,.1)
+	.slick-arrow
+		z-index: 1
+		position: absolute
+		top: 50%
+		transform: translateY(-50%)
+		border: none
+		font-size: 0
+		color: #ff800f
+		cursor: pointer
+		background-color: transparent
+		font-family: Linearicons-Free
+		speak: none
+		font-style: normal
+		font-weight: 900
+		font-variant: normal
+		text-transform: none
+		line-height: 1
+		-webkit-font-smoothing: antialiased
+		&.slick-prev
+			left: -10px
+			&:before
+				content: "\e875"
+				font-size: 20px
+		&.slick-next
+			right: -10px
+			&:before
+				content: "\e876"
+				font-size: 20px
+
+.modal_menu_footer_text
+	font-size: 14px
+	font-weight: 500
+	line-height: 16px
+	text-align: left
+	padding-left: 20px
+	padding-bottom: 15px
+
+
+
+
+/* Slider */
+
+.slick-slider
+	position: relative
+	display: block
+	box-sizing: border-box
+	-webkit-user-select: none
+	-moz-user-select: none
+	-ms-user-select: none
+	user-select: none
+	-webkit-touch-callout: none
+	-khtml-user-select: none
+	-ms-touch-action: pan-y
+	touch-action: pan-y
+	-webkit-tap-highlight-color: transparent
+
+
+.slick-list
+	position: relative
+	display: block
+	overflow: hidden
+	margin: 0
+	padding: 0
+	&:focus
+		outline: none
+	&.dragging
+		cursor: pointer
+		cursor: hand
+
+.slick-slider
+	.slick-track, .slick-list
+		-webkit-transform: translate3d(0, 0, 0)
+		-moz-transform: translate3d(0, 0, 0)
+		-ms-transform: translate3d(0, 0, 0)
+		-o-transform: translate3d(0, 0, 0)
+		transform: translate3d(0, 0, 0)
+
+.slick-track
+	position: relative
+	top: 0
+	left: 0
+	display: block
+	&:before
+		display: table
+		content: ''
+	&:after
+		display: table
+		content: ''
+		clear: both
+
+.slick-loading .slick-track
+	visibility: hidden
+
+.slick-slide
+	display: none
+	float: left
+	height: 100%
+	min-height: 1px
+
+.slick-slide
+	img
+		display: block
+	&.slick-loading img
+		display: none
+	&.dragging img
+		pointer-events: none
+
+.slick-initialized .slick-slide
+	display: block
+
+.slick-loading .slick-slide
+	visibility: hidden
+
+.slick-vertical .slick-slide
+	display: block
+	height: auto
+	border: 1px solid transparent
+
+.slick-arrow.slick-hidden
+	display: none
+
+
+html.remodal-is-locked
+	//overflow: hidden
+	touch-action: none
+
+.remodal, [data-remodal-id]
+	display: none
+
+.remodal-overlay
+	position: fixed
+	z-index: 999
+	top: -5000px
+	right: -5000px
+	bottom: -5000px
+	left: -5000px
+	display: none
+
+.remodal-wrapper
+	position: fixed
+	z-index: 1000
+	top: 0
+	right: 0
+	bottom: 0
+	left: 0
+	display: none
+	overflow: auto
+	text-align: center
+	-webkit-overflow-scrolling: touch
+	&:after
+		display: inline-block
+		height: 100%
+		margin-left: -0.05em
+		content: ""
+
+.remodal-overlay, .remodal-wrapper
+	backface-visibility: hidden
+
+.remodal
+	position: relative
+	outline: none
+	text-size-adjust: 100%
+
+.remodal-is-initialized
+	display: inline-block
+
+.remodal-bg
+	&.remodal-is-opening, &.remodal-is-opened
+		filter: blur(3px)
+
+.remodal-overlay
+	background-color: rgba(0, 0, 0, 0)
+	&.remodal-is-opening, &.remodal-is-closing
+		animation-duration: 0.3s
+		animation-fill-mode: forwards
+	&.remodal-is-opening
+		animation-name: remodal-overlay-opening-keyframes
+	&.remodal-is-closing
+		animation-name: remodal-overlay-closing-keyframes
+
+.remodal-wrapper
+	padding: 10px 10px 0
+
+.remodal
+	box-sizing: border-box
+	max-width: 100%
+	transform: translate3d(0, 0, 0)
+	width: 710px
+	padding: 45px 30px 30px
+	position: relative
+	border-radius: 5px
+	box-shadow: 5px 15px 40px rgba(0, 0, 0, 0.25)
+	background-color: #ffffff
+	&#modal_routes
+		padding: 45px 0 30px
+		width: auto
+	&#modal_menu
+		width: auto
+		padding: 20px 0
+
+
+.remodal
+	&.remodal-is-opening, &.remodal-is-closing
+		animation-duration: 0.3s
+		animation-fill-mode: forwards
+	&.remodal-is-opening
+		animation-name: remodal-opening-keyframes
+	&.remodal-is-closing
+		animation-name: remodal-closing-keyframes
+	vertical-align: middle
+
+.remodal-wrapper:after
+	vertical-align: middle
+
+.remodal-close
+	position: absolute
+	top: 5px
+	right: 5px
+	color: #037aa9
+	font-size: 10px
+	line-height: 10px
+	width: 10px
+	height: 10px
+	background-color: transparent
+	font-weight: 100
+	-webkit-appearance: none
+	padding: 0
+	cursor: pointer
+	border: 0
+	&:hover, &:focus
+		opacity: 1
+	img
+		width: 29px
+
+.modal-content
+	width: 100%
+	margin: auto
+	-webkit-background-clip: padding-box
+	background-clip: padding-box
+	outline: 0
+
+body
+	.remodal-wrapper
+		.remodal
+			.modal-content
+				position: relative
+				z-index: 1
+				.form_title
+					color: #037aa9
+					font-size: 48px
+					font-weight: 500
+					line-height: 45px
+					margin-bottom: 20px
+				.form_desc
+					margin-bottom: 30px
+				input
+					width: 100%
+					line-height: 20px
+					padding: 0 0 10px
+					font-family: "Museo Sans Cyrl"
+					border: none
+					font-size: 18px
+					border-bottom: 1px solid #87888a
+					margin-bottom: 25px
+				.btn_submit
+					cursor: pointer
+					border: none
+					min-width: 252px
+					margin-bottom: 25px
+					margin-top: 20px
+				.form_content
+					display: flex
+					margin: 0 -9px
+					padding: 40px 0 70px
+					.form_left
+						padding: 0 9px
+						text-align: left
+						input
+							margin-bottom: 10px
+						.checkbox_input
+							display: inline-block
+							margin-right: 15px
+							input:checked, input:not(:checked)
+								position: absolute
+								left: -9999px
+								top: 5px
+							input:checked + label, input:not(:checked) + label
+								position: relative
+								padding-left: 25px
+								cursor: pointer
+								display: inline-block
+								color: #87888a
+								font-size: 18px
+								font-weight: 500
+								line-height: 21px
+
+							input + label:before
+								content: ''
+								position: absolute
+								left: 0
+								top: 1px
+								width: 15px
+								height: 15px
+								border-radius: 5px
+								background: #fff
+								border: 2px solid #c4c4c4
+							input + label:after
+								content: ''
+								position: absolute
+								opacity: 0
+								width: 10px
+								top: 2px
+								left: 3px
+								color: #ff800f
+								font-size: 24px
+								line-height: 14px
+								transition: all 0.2s ease
+							input:checked + label:after
+								content: '✔'
+								opacity: 1
+							label
+								opacity: 1
+								color: #87888a
+								font-size: 18px
+								font-weight: 500
+								line-height: 21px
+					.form_right
+						padding: 0 9px
+						.btn_submit
+							margin: 0
+				.date_input
+					position: relative
+					.calendar
+						position: absolute
+						top: -4px
+						right: 15px
+				.select-hidden
+					display: none
+					visibility: hidden
+					padding-right: 10px
+
+				.select
+					cursor: pointer
+					display: inline-block
+					position: relative
+					background-color: #ffffff
+					font-size: 14px
+					color: #333
+					width: 100%
+					text-align: left
+					margin-bottom: 25px
+
+				.select-styled
+					color: #87888a
+					font-size: 18px
+					font-weight: 500
+					line-height: 21px
+					padding: 0 0 8px
+					position: relative
+					font-family: "Museo Sans Cyrl"
+					border-bottom: 1px solid #87888a
+					&:after
+						content: "\e874"
+						width: 0
+						height: 0
+						position: absolute
+						top: 2px
+						color: #87888a
+						right: 35px
+						font-size: 20px
+						font-family: Linearicons-Free
+						speak: none
+						font-style: normal
+						font-weight: 900
+						font-variant: normal
+						text-transform: none
+						line-height: 1
+						-webkit-font-smoothing: antialiased
+
+					&:active, &.active
+						border-bottom: 2px solid #ff800f
+						&:after
+							content: "\e873"
+							color: #ff800f
+
+				.select-options
+					display: none
+					width: 100%
+					z-index: 999
+					margin: 0
+					padding: 15px 0 0
+					list-style: none
+					border-top: none
+					background-color: #fff
+					li
+						margin: 0 0 20px
+						width: calc(50% - 18px)
+						padding: 0
+						color: #fff
+						font-size: 14px
+						font-weight: 400
+						line-height: 60px
+						text-align: center
+						position: relative
+						padding-left: 10px
+						border-radius: 2px
+						font-size: 22px
+						display: inline-block
+						background-size: cover
+						background-position: center
+						background-repeat: no-repeat
+						&:hover
+							color: #fff
+						&.active
+							color: #fff
+						&[rel="hide"]
+							display: none
+						&:nth-child(2)
+							margin-right: 18px
+							background-image: url(../img/Princes_64.png)
+						&:nth-child(3)
+							margin-left: 18px
+							background-image: url(../img/Lagoon.png)
+
+
+
+
+.page_content
+	transition: all 0.4s
+	z-index: 1
+
+.remodal-is-locked
+	.page_content
+		filter: blur(5px)
+
+
+@keyframes remodal-opening-keyframes
+	from
+		transform: scale(1.05)
+		opacity: 0
+
+	to
+		transform: none
+		opacity: 1
+		filter: blur(0)
+
+
+@keyframes remodal-closing-keyframes
+	from
+		transform: scale(1)
+		opacity: 1
+
+	to
+		transform: scale(0.95)
+		opacity: 0
+		filter: blur(0)
+
+
+@keyframes remodal-overlay-opening-keyframes
+	from
+		opacity: 0
+
+	to
+		opacity: 1
+
+
+@keyframes remodal-overlay-closing-keyframes
+	from
+		opacity: 1
+
+	to
+		opacity: 0
+
+
+
+.fancybox-controls
+	height: 100%
+	.fancybox-button--left
+		left: 20px
+		position: absolute
+	.fancybox-button--right
+		right: 20px
+		position: absolute
+	.fancybox-button
+		width: 55px
+		height: 55px
+		top: 50%
+	.fancybox-button--left:after, .fancybox-button--right:after
+		width: 20px
+		height: 20px
+
+
+
+
+
+//ALWAYS END
+@import "media"

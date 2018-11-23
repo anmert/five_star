@@ -1,0 +1,629 @@
+@charset "utf-8"
+@import "bourbon"
+@import 'reset.sass'
+
+*
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+
+body
+	font-size: 18px !important
+	min-width: 320px
+	position: relative
+	padding-right: 0px !important
+	line-height: 21px !important
+	overflow-x: hidden
+	font-family: "Museo Sans Cyrl"
+	font-weight: 300
+	color: #000
+	margin: 0
+	background-color: #fff
+	transition: all 0.4s
+
+.hidden
+	display: none
+
+body
+	a
+		color: #091523
+		text-decoration: none
+		transition: all 0.4s
+		text-decoration: none
+		&:hover, &:focus
+			color: #089cd5
+			outline: none
+	\:focus
+		outline: none
+	&.menu_active
+		overflow: hidden
+		max-height: 100vh
+
+img
+	vertical-align: middle
+	border: 0
+
+b
+	font-weight: 700
+
+strong
+	font-weight: 700
+
+.loader
+	background-color: #fff
+	bottom: 0
+	height: 100%
+	left: 0
+	position: fixed
+	right: 0
+	top: 0
+	width: 100%
+	z-index: 9999
+	overflow: hidden
+	pointer-events: none
+	.loader_inner
+		position: absolute
+		top: 50%
+		left: 50%
+		pointer-events: none
+		margin-top: -30px
+		margin-left: -50px
+
+.container
+	padding-right: 15px
+	padding-left: 15px
+	margin-right: auto
+	margin-left: auto
+
+
+@media (min-width: 768px)
+	.container
+		width: 750px
+
+@media (min-width: 992px)
+	.container
+		width: 970px
+
+@media (min-width: 1280px)
+	.container
+		width: 1265px
+
+@media only screen and (max-width: 991px) and (min-width: 768px)
+	.hidden-sm
+		display: none !important
+
+.visible-xs
+	display: none
+
+.visible-sm
+		display: none !important
+
+@media only screen and (min-width: 768px)
+	.visible-xs
+		display: none !important
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 768px) and (max-width: 992px)
+	.visible-sm
+		display: block !important
+@media only screen and (max-width: 767px)
+	.hidden-xs
+		display: none !important
+	.visible-xs
+		display: block !important
+
+.click_disable
+	pointer-events: none
+
+.button_center_wrap
+	text-align: center
+
+.btn_style
+	padding: 18px 32px
+	z-index: 1
+	cursor: pointer
+	min-width: 160px
+	text-align: center
+	display: inline-block
+	position: relative
+	border-radius: 5px
+	background-color: #ff800f
+	text-shadow: 4px 4px 8px rgba(13, 71, 161, 0.5)
+	color: #ffffff
+	font-size: 16px
+	font-weight: 500
+	line-height: 19px
+	transition: all 0.4s
+	text-transform: uppercase
+	&:hover, &:focus
+		background-color: #e4710b
+		color: #fff
+
+.btn_style_2
+	padding: 10px 25px
+	z-index: 1
+	min-width: 160px
+	text-align: center
+	display: inline-block
+	position: relative
+	border-radius: 5px
+	background-color: transparent
+	border: 2px solid #ffffff
+	color: #ffffff
+	font-size: 12px
+	font-weight: 500
+	line-height: 14px
+	transition: all 0.4s
+	text-transform: uppercase
+	&:hover, &:focus
+		color: #ffd80f
+		border: 2px solid #ffd80f
+
+.btn_style_3
+	padding: 10px 15px
+	z-index: 1
+	min-width: 120px
+	text-align: center
+	display: inline-block
+	position: relative
+	border-radius: 5px
+	background-color: transparent
+	border: 2px solid #037aa9
+	color: #037aa9
+	font-size: 12px
+	font-weight: 500
+	line-height: 14px
+	transition: all 0.4s
+	text-transform: uppercase
+	&:hover, &:focus
+		color: #ffd80f
+		border: 2px solid #ffd80f
+
+::-webkit-scrollbar
+	width: 10px
+	background: transparent
+
+::-webkit-scrollbar-track
+	border-radius: 10px
+
+::-webkit-scrollbar-thumb
+	background: #037aa9
+
+.container-video
+	position: absolute
+	width: 100%
+	opacity: 1
+	height: 100%
+	overflow: hidden
+	background-color: #fff
+	iframe, video
+		top: 0
+		min-width: 100%
+		min-height: 100%
+		position: absolute
+		display: block
+		left: 50%
+		top: 50%
+		transform: translate(-50%, -50%)
+	.vjs-control, .vjs-control-bar, .vjs-hidden, button
+		display: none
+
+
+.video-loader
+	position: absolute
+	top: 50%
+	width: 80px
+	background-color: #fbfbfb
+	left: 50%
+	height: 80px
+	border-radius: 50%
+	margin: -40px 0 0 -40px
+	overflow: hidden
+
+
+.mute_video
+	position: absolute
+	bottom: 20px
+	right: 20px
+	color: #828886
+	font-size: 30px
+	cursor: pointer
+	width: 35px
+	z-index: 1
+	.fa-volume-up
+		display: block
+	.fa-volume-down
+		display: none
+	&.unmute-video
+		color: #364b4a
+		.fa-volume-up
+			display: none
+		.fa-volume-down
+			display: block
+
+.atm-player-dimensions
+	min-width: 100%
+	min-height: 100%
+	height: auto
+
+header
+	position: absolute
+	width: 100%
+	top: 0
+	left: 0
+	transition: all 1.4s
+	z-index: 20
+	padding: 0
+	.header__wrap
+		display: flex
+		justify-content: space-between
+		align-items: center
+		position: relative
+		transition: all 0.4s
+		margin-bottom: 0
+		.logo_wrap
+			padding: 20px
+			margin-right: 85px
+			border-radius: 0 0 5px 5px
+			background-color: #ffffff
+		.phone_numbers
+			margin-left: auto
+			text-align: right
+			margin-top: 25px
+			.header_phone
+				color: #ffffff
+				font-family: "Proxima Nova"
+				font-size: 16px
+				font-weight: 400
+				line-height: 18px
+				display: block
+			.header_email
+				color: #ffffff
+				font-family: "Proxima Nova"
+				font-size: 10px
+				font-weight: 400
+				line-height: 14px
+				display: block
+		.btn_style_1
+			width: 243px
+			border-radius: 5px
+			border: 2px solid #ffffff
+			color: #ffffff
+			font-family: "Proxima Nova"
+			font-size: 12px
+			font-weight: 400
+			line-height: 36px
+			text-align: center
+			display: inline-block
+			margin-left: 20px
+			margin-top: 25px
+
+
+.head_menu
+	margin-top: 25px
+	ul
+		li
+			margin: 0 15px
+			display: inline-block
+			a
+				color: #ffffff
+				font-family: "Helvetica Neue Cyr"
+				font-size: 12px
+				font-weight: 300
+				line-height: 14px
+				position: relative
+				&:after
+					content: ""
+					display: block
+					width: 100%
+					position: absolute
+					font-weight: 300
+					height: 2px
+					bottom: -6px
+					background-color: #fff
+					color: #fff
+					-webkit-transform: scale(0, 1)
+					-ms-transform: scale(0, 1)
+					transform: scale(0, 1)
+					-ms-transform-origin: left center
+					transform-origin: left center
+					-webkit-transform-origin: left center
+					transition: all 0.5s ease-out
+					-moz-opacity: 0
+					-khtml-opacity: 0
+					opacity: 0
+				&:hover:after
+					-webkit-transform: scale(1, 1)
+					-ms-transform: scale(1, 1)
+					transform: scale(1, 1)
+					-moz-opacity: 100
+					-khtml-opacity: 100
+					opacity: 100
+					opacity: 1
+
+
+.mobile_menu
+	display: none
+	background-color: rgba(26, 30, 45, .8)
+	padding: 80px 30px 0
+	position: fixed
+	top: 0
+	left: 0
+	width: 100%
+	height: 100vh
+	z-index: 20
+	overflow-y: auto
+	ul
+		li
+			display: block
+			text-align: center
+			a
+				color: #fff
+				font-size: 18px
+				line-height: 42px
+				font-weight: 400
+				display: inline-block
+				position: relative
+				transition: all 0.3s
+				letter-spacing: 0.2px
+				&:hover
+					color: #fafafa
+			&.active a
+				color: #fafafa
+
+.main_head
+	position: relative
+	background-position: center
+	background-repeat: no-repeat
+	background-size: cover
+	overflow: hidden
+	&:before
+		content: ''
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 700px
+		background: linear-gradient(180deg, #0D47A1 0%, rgba(66, 165, 245, 0) 53.59%)
+	.main_head_content
+		padding: 50px 0
+		position: relative
+		min-height: 100vh
+		display: flex
+		align-items: flex-start
+		flex-direction: column
+		justify-content: center
+		flex-wrap: wrap
+		.head_content
+			h1
+				text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5)
+				color: #ffffff
+				font-family: "Proxima Nova"
+				font-size: 64px
+				font-weight: 800
+				line-height: 75px
+				margin-bottom: 30px
+				text-transform: uppercase
+	.main_laout
+		position: absolute
+		bottom: -10px
+		left: 0
+		width: 101%
+
+/* Sandwich */
+
+.toggle_mnu
+	width: 17px
+	z-index: 110
+	border: none
+	cursor: pointer
+	margin-left: 15px
+	position: relative
+	background-color: rgba(171, 153, 153, 0)
+	&:focus
+		outline: none
+	span
+		display: block
+	.close
+		display: none
+
+.sandwich
+	width: 17px
+	height: 10px
+	position: absolute
+	top: 0
+	bottom: 0
+	left: 0
+	margin: 0
+	z-index: 200
+
+.sw-topper
+	position: relative
+	top: 0
+	width: 17px
+	height: 1px
+	background: #fff
+	border: none
+	-webkit-transition: -webkit-transform 0.5s,top .2s
+	transition: transform 0.5s,top .2s
+	display: block
+
+.sw-bottom
+	position: relative
+	width: 17px
+	height: 1px
+	top: 5px
+	background: #fff
+	border: none
+	-webkit-transition: -webkit-transform 0.5s,top .2s
+	transition: transform 0.5s,top .2s
+	-webkit-transition-delay: 0.2s,0
+	transition-delay: 0.2s,0
+
+.sw-footer
+	position: relative
+	width: 17px
+	height: 1px
+	top: 10px
+	background: #fff
+	border: none
+	-webkit-transition: all .5s
+	transition: all .5s
+	-webkit-transition-delay: .1s
+	transition-delay: .1s
+
+
+.sandwich.active
+	.sw-topper
+		top: 4px
+		background: #fff
+		-webkit-transform: rotate(-45deg)
+		-ms-transform: rotate(-45deg)
+		transform: rotate(-45deg)
+	.sw-bottom
+		top: 3px
+		width: 17px
+		background: #fff
+		-webkit-transform: rotate(45deg)
+		-ms-transform: rotate(45deg)
+		transform: rotate(45deg)
+	.sw-footer
+		opacity: 0
+		top: 0
+		-webkit-transform: rotate(180deg)
+		-ms-transform: rotate(180deg)
+		transform: rotate(180deg)
+
+/* End Sandwich */
+
+@media only screen and (min-width : 768px)
+	.toggle_mnu
+		display: none
+
+@media only screen and (max-width : 1280px)
+	body
+		font-size: 16px!important
+		line-height: 19px!important
+	header
+		.header__wrap
+			.logo_wrap
+				margin-right: 25px
+	.head_menu
+		ul
+			li
+				margin: 0 8px
+	.main_head
+		.main_head_content
+			min-height: 720px
+			.head_content
+				h1
+					font-size: 52px
+					line-height: 59px
+					margin-bottom: 20px
+	.btn_style
+		font-size: 14px
+		padding: 14px 28px
+	.container-video
+		iframe, video
+			height: 720px
+
+@media only screen and (max-width : 992px)
+	body
+		font-size: 15px!important
+		line-height: 18px!important
+	header
+		.header__wrap
+			.logo_wrap
+				padding: 12px
+				margin-right: 15px
+			.btn_style_1
+				width: 180px
+				line-height: 32px
+				font-size: 11px
+				margin-left: 12px
+	.head_menu
+		ul
+			li
+				margin: 0 5px
+	.main_head
+		.main_head_content
+			min-height: 600px
+			.head_content
+				h1
+					font-size: 46px
+					line-height: 52px
+					margin-bottom: 20px
+	.btn_style
+		font-size: 13px
+		padding: 12px 20px
+	.container-video
+		iframe, video
+			height: 600px
+
+
+@media only screen and (max-width: 767px)
+	body
+		font-size: 14px!important
+		line-height: 16px!important
+	.head_menu
+		display: none
+	header
+		.header__wrap
+			.logo_wrap
+				padding: 5px 12px
+				margin-right: 10px
+				img
+					max-width: 54px
+			.btn_style_1
+				margin-top: 10px
+				font-size: 10px
+				line-height: 12px
+				max-width: 110px
+				padding: 1px
+			.phone_numbers
+				margin-top: 10px
+				.header_phone
+					font-size: 12px
+					line-height: 13px
+				.header_email
+					font-size: 6px
+					line-height: 6px
+	.main_head
+		&:before
+			height: 360px
+		.main_head_content
+			min-height: 320px
+			padding: 50px 0 60px
+			.head_content
+				h1
+					font-size: 33px
+					line-height: 39px
+	.btn_style
+		font-size: 12px
+		line-height: 14px
+		padding: 7px 18px
+	.container-video
+		iframe, video
+			height: 280px
+
+
+
+@media only screen and (max-width: 480px)
+	/* */
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 360px)
+	header
+		.header__wrap
+			.logo_wrap
+				padding: 5px 6px
+				margin-right: 8px
+			.phone_numbers
+				.header_phone
+					font-size: 10px
+			.btn_style_1
+				margin-left: 8px
+				max-width: 100px
+	.toggle_mnu
+		margin-left: 10px
