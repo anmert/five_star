@@ -200,6 +200,7 @@ h2
 				margin-bottom: 50px
 				position: relative
 				z-index: 1
+				min-height: 280px
 				display: flex
 				overflow: hidden
 				box-shadow: 5px 15px 40px rgba(0, 0, 0, 0.25)
@@ -215,9 +216,11 @@ h2
 						margin-bottom: 15px
 				.image_wrap
 					width: 50%
+					background-size: cover
+					background-repeat: no-repeat
+					background-position: center
 					img
-						min-width: 100%
-						min-height: 100%
+						width: 100%
 				&:nth-child(odd)
 					.text_wrap
 						text-align: right
