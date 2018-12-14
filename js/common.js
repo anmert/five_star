@@ -430,6 +430,15 @@ $(document).ready(function(){
     return false;
   });
 
+  $('.curse .select-options li').on("click", function(e) {
+    var span_id = $(this).attr('rel');
+    $('.row_content').find(".shedule_vals span").removeClass('active');
+    $('.shedule_vals').each(function(){
+      $(this).find("span").eq(span_id-1).addClass('active');
+    });
+    return false;
+  });
+
   $(function() {
     $('input[name=daterange]').datepicker();
   });
@@ -464,6 +473,16 @@ $(document).ready(function(){
         t.play();
       }, 1000);
     }
+
+
+  $('.directions_link').on("click", function(e) {
+    $(this).siblings().removeClass('active');
+    $(this).addClass('active');
+    var id = $(this).index();
+    $(".directions_tab").removeClass('active');
+    $(".directions_tab").eq(id).addClass('active');
+    return false;
+  });
 
 
   $('.additional_link').on("click", function(e) {

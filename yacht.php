@@ -136,13 +136,13 @@
 						<div class="icon_wrap">
 							<img src="img/icon7.png" alt="">
 						</div>
-						<div class="title">Кухня, обеденная зона и все для барбекю</div>
+						<div class="title">Кухня, обеденная зона <br>и все для барбекю</div>
 					</div>
 					<div class="equipped_item">
 						<div class="icon_wrap">
 							<img src="img/icon8.png" alt="">
 						</div>
-						<div class="title">20 комплектов масок и ласт для снорклинга</div>
+						<div class="title">20 комплектов масок <br>и ласт для снорклинга</div>
 					</div>
 					<div class="equipped_item">
 						<div class="icon_wrap">
@@ -160,7 +160,7 @@
 						<div class="icon_wrap">
 							<img src="img/icon11.png" alt="">
 						</div>
-						<div class="title">Моторная лодка, каяки и вейкборд</div>
+						<div class="title">Моторная лодка, каяки <br>и вейкборд</div>
 					</div>
 					<div class="equipped_item">
 						<div class="icon_wrap">
@@ -178,7 +178,7 @@
 			<div class="section_content">
 				<h2 class="animation_1">Маршрут путешествия, который удобен вам</h2>
 				<div class="directions_links">
-					<a href="#" class="directions_link">
+					<a href="#" class="directions_link active">
 						<div class="title">Маршруты</div>
 						<div class="text">на полдня</div>
 					</a>
@@ -191,67 +191,205 @@
 						<div class="text">на два дня</div>
 					</a>
 				</div>
-				<div class="large_image">
-					<img src="img/IMG_1612s22.jpg" alt="">
-				</div>
-				<div class="directions_items">
-					<div class="item">
-						<div class="title">Маршрут 1</div>
-						<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
-						<div class="price">
-							<div class="val">
-								<span class="active">145 000</span>
-								<span>145 000</span>
-								<span>155 000</span>
-								<span>200 350</span>
+				<div class="directions_tabs">
+					<div class="directions_tab active">
+						<div class="large_image">
+							<img src="img/IMG_1612s22.jpg" alt="">
+						</div>
+						<div class="directions_items">
+							<div class="item">
+								<div class="title">Маршрут 1</div>
+								<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
+								<div class="price">
+									<div class="val">
+										<span class="active">145 000</span>
+										<span>145 000</span>
+										<span>155 000</span>
+										<span>200 350</span>
+									</div>
+									<div class="cur">
+										<select name="Sel" class="custom_select">
+											<option value="1">THB</option>
+											<option value="2">EUR</option>
+											<option value="3">USD</option>
+											<option value="4">RUB</option>
+										</select>
+									</div>
+								</div>
 							</div>
-							<div class="cur">
-								<select name="Sel" class="custom_select">
-									<option value="1">THB</option>
-									<option value="2">EUR</option>
-									<option value="3">USD</option>
-									<option value="4">RUB</option>
-								</select>
+							<div class="item">
+								<div class="title">Маршрут 2</div>
+								<div class="text">ПХУКЕТ- о.НАКА - о.РАНГ ЯЙ - ПХУКЕТ</div>
+								<div class="price">
+									<div class="val">
+										<span class="active">145 000</span>
+										<span>145 000</span>
+										<span>185 000</span>
+										<span>200 350</span>
+									</div>
+									<div class="cur">
+										<select name="Sel" class="custom_select">
+											<option value="1">THB</option>
+											<option value="2">EUR</option>
+											<option value="3">USD</option>
+											<option value="4">RUB</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="title">Маршрут 3</div>
+								<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
+								<div class="price">
+									<div class="val">
+										<span class="active">50 000</span>
+										<span>50 000</span>
+										<span>60 000</span>
+										<span>100 350</span>
+									</div>
+									<div class="cur">
+										<select name="Sel" class="custom_select">
+											<option value="1">THB</option>
+											<option value="2">EUR</option>
+											<option value="3">USD</option>
+											<option value="4">RUB</option>
+										</select>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="item">
-						<div class="title">Маршрут 2</div>
-						<div class="text">ПХУКЕТ- о.НАКА - о.РАНГ ЯЙ - ПХУКЕТ</div>
-						<div class="price">
-							<div class="val">
-								<span class="active">145 000</span>
-								<span>145 000</span>
-								<span>185 000</span>
-								<span>200 350</span>
+					<div class="directions_tab">
+						<div class="large_image">
+							<img src="img/IMG_1612s22.jpg" alt="">
+						</div>
+						<div class="directions_items">
+							<div class="item">
+								<div class="title">Маршрут 4</div>
+								<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
+								<div class="price">
+									<div class="val">
+										<span class="active">145 000</span>
+										<span>145 000</span>
+										<span>155 000</span>
+										<span>200 350</span>
+									</div>
+									<div class="cur">
+										<select name="Sel" class="custom_select">
+											<option value="1">THB</option>
+											<option value="2">EUR</option>
+											<option value="3">USD</option>
+											<option value="4">RUB</option>
+										</select>
+									</div>
+								</div>
 							</div>
-							<div class="cur">
-								<select name="Sel" class="custom_select">
-									<option value="1">THB</option>
-									<option value="2">EUR</option>
-									<option value="3">USD</option>
-									<option value="4">RUB</option>
-								</select>
+							<div class="item">
+								<div class="title">Маршрут 5</div>
+								<div class="text">ПХУКЕТ- о.НАКА - о.РАНГ ЯЙ - ПХУКЕТ</div>
+								<div class="price">
+									<div class="val">
+										<span class="active">145 000</span>
+										<span>145 000</span>
+										<span>185 000</span>
+										<span>200 350</span>
+									</div>
+									<div class="cur">
+										<select name="Sel" class="custom_select">
+											<option value="1">THB</option>
+											<option value="2">EUR</option>
+											<option value="3">USD</option>
+											<option value="4">RUB</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="title">Маршрут 6</div>
+								<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
+								<div class="price">
+									<div class="val">
+										<span class="active">50 000</span>
+										<span>50 000</span>
+										<span>60 000</span>
+										<span>100 350</span>
+									</div>
+									<div class="cur">
+										<select name="Sel" class="custom_select">
+											<option value="1">THB</option>
+											<option value="2">EUR</option>
+											<option value="3">USD</option>
+											<option value="4">RUB</option>
+										</select>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="item">
-						<div class="title">Маршрут 3</div>
-						<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
-						<div class="price">
-							<div class="val">
-								<span class="active">50 000</span>
-								<span>50 000</span>
-								<span>60 000</span>
-								<span>100 350</span>
+					<div class="directions_tab">
+						<div class="large_image">
+							<img src="img/IMG_1612s22.jpg" alt="">
+						</div>
+						<div class="directions_items">
+							<div class="item">
+								<div class="title">Маршрут 7</div>
+								<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
+								<div class="price">
+									<div class="val">
+										<span class="active">145 000</span>
+										<span>145 000</span>
+										<span>155 000</span>
+										<span>200 350</span>
+									</div>
+									<div class="cur">
+										<select name="Sel" class="custom_select">
+											<option value="1">THB</option>
+											<option value="2">EUR</option>
+											<option value="3">USD</option>
+											<option value="4">RUB</option>
+										</select>
+									</div>
+								</div>
 							</div>
-							<div class="cur">
-								<select name="Sel" class="custom_select">
-									<option value="1">THB</option>
-									<option value="2">EUR</option>
-									<option value="3">USD</option>
-									<option value="4">RUB</option>
-								</select>
+							<div class="item">
+								<div class="title">Маршрут 8</div>
+								<div class="text">ПХУКЕТ- о.НАКА - о.РАНГ ЯЙ - ПХУКЕТ</div>
+								<div class="price">
+									<div class="val">
+										<span class="active">145 000</span>
+										<span>145 000</span>
+										<span>185 000</span>
+										<span>200 350</span>
+									</div>
+									<div class="cur">
+										<select name="Sel" class="custom_select">
+											<option value="1">THB</option>
+											<option value="2">EUR</option>
+											<option value="3">USD</option>
+											<option value="4">RUB</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="title">Маршрут 9</div>
+								<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
+								<div class="price">
+									<div class="val">
+										<span class="active">50 000</span>
+										<span>50 000</span>
+										<span>60 000</span>
+										<span>100 350</span>
+									</div>
+									<div class="cur">
+										<select name="Sel" class="custom_select">
+											<option value="1">THB</option>
+											<option value="2">EUR</option>
+											<option value="3">USD</option>
+											<option value="4">RUB</option>
+										</select>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -329,7 +467,7 @@
 								<div class="val_title">
 									Выбор валюты
 								</div>
-								<div class="cur">
+								<div class="curse">
 									<select name="Sel" class="custom_select">
 										<option value="1">THB</option>
 										<option value="2">EUR</option>
@@ -362,10 +500,42 @@
 									<div class="text">1 мая – 31 октября</div>
 								</div>
 							</div>
-							<div class="column_2"><span class="visible-xs visible-sm">Полдня</span> <span>145,000 THB</span></div>
-							<div class="column_3"><span class="visible-xs visible-sm">Весь день</span> <span>180,000 THB</span></div>
-							<div class="column_4"><span class="visible-xs visible-sm">Ночевка на 2 дня/1 ночь</span> <span>343, 000 THB</span></div>
-							<div class="column_5"><span class="visible-xs visible-sm">Ночевка на 3 дня/2 ночи</span> <span>514, 000 THB</span></div>
+							<div class="column_2">
+								<span class="visible-xs visible-sm">Полдня</span>
+								<span class="shedule_vals">
+									<span class="active">145,000 THB</span>
+									<span>45,000 EUR</span>
+									<span>50,000 USD</span>
+									<span>850,000 RUB</span>
+								</span>
+							</div>
+							<div class="column_3">
+								<span class="visible-xs visible-sm">Весь день</span>
+								<span class="shedule_vals">
+									<span class="active">180,000 THB</span>
+									<span>45,000 EUR</span>
+									<span>50,000 USD</span>
+									<span>850,000 RUB</span>
+								</span>
+							</div>
+							<div class="column_4">
+								<span class="visible-xs visible-sm">Ночевка на 2 дня/1 ночь</span>
+								<span class="shedule_vals">
+									<span class="active">343, 000 THB</span>
+									<span>45,000 EUR</span>
+									<span>50,000 USD</span>
+									<span>850,000 RUB</span>
+								</span>
+							</div>
+							<div class="column_5">
+								<span class="visible-xs visible-sm">Ночевка на 3 дня/2 ночи</span>
+								<span class="shedule_vals">
+									<span class="active">514, 000 THB</span>
+									<span>45,000 EUR</span>
+									<span>50,000 USD</span>
+									<span>850,000 RUB</span>
+								</span>
+							</div>
 						</div>
 						<div class="row_content">
 							<div class="column_1">
@@ -374,10 +544,42 @@
 									<div class="text">1 февраля - 30 апреля <br>1 ноября - 19 декабря</div>
 								</div>
 							</div>
-							<div class="column_2"><span class="visible-xs visible-sm">Полдня</span> <span>170, 000 THB</span></div>
-							<div class="column_3"><span class="visible-xs visible-sm">Весь день</span> <span>210, 000 THB</span></div>
-							<div class="column_4"><span class="visible-xs visible-sm">Ночевка на 2 дня/1 ночь</span> <span>381, 000 THB</span></div>
-							<div class="column_5"><span class="visible-xs visible-sm">Ночевка на 3 дня/2 ночи</span> <span>571, 000 THB</span></div>
+							<div class="column_2">
+								<span class="visible-xs visible-sm">Полдня</span>	
+								<span class="shedule_vals">
+									<span class="active">170, 000 THB</span>
+									<span>45,000 EUR</span>
+									<span>50,000 USD</span>
+									<span>750,000 RUB</span>
+								</span>
+							</div>
+							<div class="column_3">
+								<span class="visible-xs visible-sm">Весь день</span>
+								<span class="shedule_vals">
+									<span class="active">210, 000 THB</span>
+									<span>46,000 EUR</span>
+									<span>52,000 USD</span>
+									<span>850,000 RUB</span>
+								</span>
+							</div>
+							<div class="column_4">
+								<span class="visible-xs visible-sm">Ночевка на 2 дня/1 ночь</span>
+								<span class="shedule_vals">
+									<span class="active">381, 000 THB</span>
+									<span>47,000 EUR</span>
+									<span>54,000 USD</span>
+									<span>950,000 RUB</span>
+								</span>
+							</div>
+							<div class="column_5">
+								<span class="visible-xs visible-sm">Ночевка на 3 дня/2 ночи</span>
+								<span class="shedule_vals">
+									<span class="active">571, 000 THB</span>
+									<span>48,000 EUR</span>
+									<span>56,000 USD</span>
+									<span>1050,000 RUB</span>
+								</span>
+							</div>
 						</div>
 						<div class="row_content">
 							<div class="column_1">
@@ -386,10 +588,37 @@
 									<div class="text">20 декабря - 31 января</div>
 								</div>
 							</div>
-							<div class="column_2"><span class="visible-xs visible-sm">Полдня</span> <span>-</span></div>
-							<div class="column_3"><span class="visible-xs visible-sm">Весь день</span> <span>240, 000 THB</span></div>
-							<div class="column_4"><span class="visible-xs visible-sm">Ночевка на 2 дня/1 ночь</span> <span>505, 000 THB</span></div>
-							<div class="column_5"><span class="visible-xs visible-sm">Ночевка на 3 дня/2 ночи</span> <span>742, 000 THB</span></div>
+							<div class="column_2">
+								<span class="visible-xs visible-sm">Полдня</span> 
+								<span>-</span>
+							</div>
+							<div class="column_3">
+								<span class="visible-xs visible-sm">Весь день</span> 
+								<span class="shedule_vals">
+									<span class="active">240, 000 THB</span>
+									<span>46,000 EUR</span>
+									<span>54,000 USD</span>
+									<span>850,000 RUB</span>
+								</span>
+							</div>
+							<div class="column_4">
+								<span class="visible-xs visible-sm">Ночевка на 2 дня/1 ночь</span> 
+								<span class="shedule_vals">
+									<span class="active">505, 000 THB</span>
+									<span>48,000 EUR</span>
+									<span>57,000 USD</span>
+									<span>950,000 RUB</span>
+								</span>
+							</div>
+							<div class="column_5">
+								<span class="visible-xs visible-sm">Ночевка на 3 дня/2 ночи</span> 
+								<span class="shedule_vals">
+									<span class="active">742, 000 THB</span>
+									<span>49,000 EUR</span>
+									<span>59,000 USD</span>
+									<span>1150,000 RUB</span>
+								</span>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -545,13 +774,6 @@
 					</div>
 					<div class="conditions_item">
 						<div class="icon_wrap">
-							<img src="img/icon14.png" class="conditions_icon" alt="">
-						</div>
-						<div class="title">Депозит</div>
-						<div class="text">Депозит в размере 30000 THB взимается перед выходом в море и возвращается по прибытии в порт.</div>
-					</div>
-					<div class="conditions_item">
-						<div class="icon_wrap">
 							<img src="img/icon15.png" class="conditions_icon" alt="">
 						</div>
 						<div class="title">Топливо</div>
@@ -563,6 +785,13 @@
 						</div>
 						<div class="title">Отмена брони</div>
 						<div class="text">При отмене бронирования удерживается процент от стоимости чартера: - 25% при отмене более чем за 30 дней - 50% от 30 до 14 дней до отправления - 100% при отмене менее чем за 14 дней </div>
+					</div>
+					<div class="conditions_item">
+						<div class="icon_wrap">
+							<img src="img/icon14.png" class="conditions_icon" alt="">
+						</div>
+						<div class="title">Депозит</div>
+						<div class="text">Депозит в размере 30000 THB взимается перед выходом в море и возвращается по прибытии в порт.</div>
 					</div>
 				</div>
 			</div>

@@ -173,45 +173,35 @@
 							<div class="title">Аренда яхты напрямую у владельца</div>
 							<div class="text">Мы рассчитаем общую стоимость с учетом всех сопутствующих расходов, никаких "подводных камней". Мы сами регулируем цены (цены варьируются в зависимости от сезона), потому что это наши яхты. </div>
 						</div>
-						<div class="image_wrap" style="background-image: url('img/service1_1.jpg')">
-							<img src="img/service1_1.jpg" alt="" class="visible-xs visible-sm">
-						</div>
+						<div class="image_wrap" style="background-image: url('img/service1_1.jpg')"></div>
 					</div>
 					<div class="services_item">
 						<div class="text_wrap">
 							<div class="title">Быстрое бронирование по звонку</div>
 							<div class="text">Вы можете забронировать яхту сегодня и пойти в море уже завтра. Если яхта свободна, мы в кратчайшие сроки решим все организационные вопросы, чтобы вы отправились в увлекательное путешествие. Мы работаем только с надежными подрядчиками с высокими стандартами, чтобы гарантировать вам первоклассный отдых в открытом море.</div>
 						</div>
-						<div class="image_wrap" style="background-image: url('img/service2.jpg')">
-							<img src="img/service2.jpg" alt="" class="visible-xs visible-sm">
-						</div>
+						<div class="image_wrap" style="background-image: url('img/service2.jpg')"></div>
 					</div>
 					<div class="services_item">
 						<div class="text_wrap">
 							<div class="title">Гибкое построение маршрута</div>
 							<div class="text">Во время путешествия у вас будет полная свобода действий — если вам захочется без суеты и спешки подольше понежиться на понравившемся пляже, мы перестроим маршрут так, чтобы вы могли сполна насладиться своим эксклюзивным путешествием. Наши опытные капитаны отлично знают местность и могут перестраивать маршрут так, чтобы избегать пересечения с толпами туристов и показывать только лучшие точки обзора.</div>
 						</div>
-						<div class="image_wrap" style="background-image: url('img/service3_1.jpg')">
-							<img src="img/service3_1.jpg" alt="" class="visible-xs visible-sm">
-						</div>
+						<div class="image_wrap" style="background-image: url('img/service3_1.jpg')"></div>
 					</div>
 					<div class="services_item">
 						<div class="text_wrap">
 							<div class="title">Безопасность и надежность поездки</div>
 							<div class="text">Яхты находятся в отличном техническом состоянии и оборудованы всем необходимым для комфортного и продолжительного отдыха. Опытный экипаж позаботится о вашей безопасности и комфорте на борту. Команда умеет оказывать первую медицинскую помощь, и для экстренных случаев есть аптечка. На борту есть огнетушители, спасательные жилеты и специальная спасательная шлюпка. А также компанией предоставляется страховка на все время чартера на судно и на каждого гостя на борту.</div>
 						</div>
-						<div class="image_wrap" style="background-image: url('img/service4_1.jpg')">
-							<img src="img/service4_1.jpg" alt="" class="visible-xs visible-sm">
-						</div>
+						<div class="image_wrap" style="background-image: url('img/service4_1.jpg')"></div>
 					</div>
 					<div class="services_item">
 						<div class="text_wrap">
 							<div class="title">Полный комплекс услуг по организации путешествий на яхте</div>
 							<div class="text">Мы посоветуем, какую яхту выбрать, чтобы она соответствовала вашим потребностям, поможем подобрать маршрут исходя из запроса, проконсультируем по особенностям Пхукета, проследим за прогнозом погоды, порекомендуем рестораны. Во время поездки команда подскажет красивые бухты для купания и подробно расскажет о достопримечательностях. Мы экономим ваше силы и время на само путешествие, используя свой опыт в организации морских путешествий.</div>
 						</div>
-						<div class="image_wrap" style="background-image: url('img/service5_1.jpg')">
-							<img src="img/service5_1.jpg" alt="" class="visible-xs visible-sm">
-						</div>
+						<div class="image_wrap" style="background-image: url('img/service5_1.jpg')"></div>
 					</div>
 				</div>
 			</div>

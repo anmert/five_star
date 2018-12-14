@@ -404,13 +404,18 @@ h2
 				font-weight: 400
 				line-height: 21px
 				text-transform: uppercase
-			&:hover
+			&:hover, &.active
 				background-color: #037aa9
 				box-shadow: 5px 5px 30px rgba(66, 165, 245, 0.7)
 				.title
 					color: #fff
 				.text
 					color: #fff
+	.directions_tabs
+		.directions_tab
+			display: none
+			&.active
+				display: block
 	.large_image
 		overflow: hidden
 		border-radius: 5px
@@ -695,8 +700,7 @@ h2
 					color: #283f5b
 			.submit_btn
 				border: none
-				margin-top: 20px
-				margin-bottom: 45px
+				margin-bottom: 20px
 				-webkit-appearance: none
 
 
@@ -1106,7 +1110,7 @@ h2
 					border-radius: 5px
 					padding: 8px
 					border: 1px solid #c4c4c4
-					.cur
+					.curse
 						text-shadow: 0 4px 20px rgba(66, 165, 245, 0.5)
 						color: #037aa9
 						display: inline-block
@@ -1168,6 +1172,11 @@ h2
 			.row_content
 				display: flex
 				margin: 0 -10px 20px
+				.shedule_vals
+					span
+						display: none
+						&.active
+							display: inline-block
 				.column_1
 					width: 40%
 					padding: 0 10px

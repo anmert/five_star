@@ -362,6 +362,7 @@
 					flex-wrap: wrap
 					.image_wrap
 						width: 100%
+						height: 330px
 						img
 							height: auto
 					.text_wrap
@@ -647,6 +648,44 @@
 		-webkit-transform: translate3d(0, 0, 0)
 		transform: translate3d(0, 0, 0)
 
+
+
+@media only screen and (max-width: 840px)
+	.menu_wrap
+		padding: 15px 0 80px
+		.bg3
+			width: 840px
+			margin-left: -420px
+		.section_content
+			.description
+				padding: 0
+				margin-bottom: 20px
+	.video_presentation
+		padding: 10px 0
+		.section_content
+			.image_wrap
+				width: 40%
+				.video_play
+					width: 60px
+					height: 60px
+					i
+						line-height: 60px
+			.text_wrap
+				.title
+					text-shadow: 0 1px 15px rgba(0, 0, 0, .7)
+	.menu_wrap
+		.section_content
+			h2
+				text-shadow: 0 1px 15px rgba(0, 0, 0, .7)
+			.description
+				font-weight: 400
+				text-shadow: 0 1px 5px rgba(0, 0, 0, 1)
+			.menu_items
+				.menu_item
+					margin-bottom: 25px
+					.menu_img
+						margin-bottom: 10px
+
 @media only screen and (max-width: 767px)
 	h2
 		font-size: 25px
@@ -746,10 +785,7 @@
 						.text
 							text-align: center
 					.image_wrap
-						img
-							min-width: 100px
-							min-height: 100px
-							width: 100%
+						height: 200px
 	.video_block
 		height: 330px
 		margin-top: 0
