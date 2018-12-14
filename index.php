@@ -591,7 +591,7 @@
 		</div>
 	</div>
 
-	
+	<img src="img/bg_footer_3.jpg" class="before_footer_image" alt="">
 
 
 

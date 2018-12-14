@@ -62,6 +62,88 @@ h2
 					font-weight: 500
 					line-height: 21px
 
+.feature
+	padding: 40px 0
+	.section_content
+		.feature_items
+			padding: 15px 0 0
+			margin: 0 -10px
+			display: flex
+			flex-wrap: wrap
+			.feature_item
+				width: 25%
+				padding: 0 10px
+				margin-bottom: 30px
+				.feature_item_image
+					width: 100%
+					border-radius: 10px
+					margin-bottom: 20px
+				.title
+					font-size: 22px
+					font-weight: 500
+					line-height: 21px
+					margin-bottom: 20px
+				.text
+
+.photo_gallery
+	padding: 10px 0
+	.photo_gallery_items
+		.item
+			img
+				max-width: 100%
+		.slick-arrow
+			z-index: 1
+			position: absolute
+			top: 50%
+			transform: translateY(-50%)
+			border: none
+			font-size: 0
+			color: #fff
+			cursor: pointer
+			background-color: transparent
+			font-family: Linearicons-Free
+			speak: none
+			font-style: normal
+			font-weight: 900
+			font-variant: normal
+			text-transform: none
+			line-height: 1
+			-webkit-font-smoothing: antialiased
+			&.slick-prev
+				left: 50%
+				margin-left: -630px
+				&:before
+					content: "\e875"
+					font-size: 20px
+			&.slick-next
+				right: 50%
+				margin-right: -630px
+				&:before
+					content: "\e876"
+					font-size: 20px
+		.slick-dots
+			position: absolute
+			bottom: 30px
+			left: 50%
+			transform: translateX(-50%)
+			li
+				display: inline-block
+				margin: 0 5px
+				button
+					width: 10px
+					height: 10px
+					margin: 0
+					padding: 0
+					font-size: 0
+					border: none
+					border-radius: 50%
+					background-color: #c4c4c4
+				&.slick-active
+					button
+						background-color: #037aa9
+
+
+
 .relax
 	padding: 50px 0 60px
 	background-color: #f7faff
@@ -88,6 +170,62 @@ h2
 					font-weight: 500
 					line-height: 21px
 					margin-bottom: 30px
+
+.conditions
+	padding: 50px 0 20px
+	.section_content
+		.conditions_items
+			padding: 15px 0 0
+			margin: 0 -12px
+			display: flex
+			flex-wrap: wrap
+			.conditions_item
+				width: 25%
+				padding: 0 12px 25px
+				.icon_wrap
+					width: 120px
+					height: 120px
+					display: flex
+					align-items: center
+					justify-content: center
+					border: 2px solid #037aa9
+					border-radius: 50%
+					margin-bottom: 25px
+				.title
+					font-size: 22px
+					font-weight: 500
+					line-height: 21px
+					margin-bottom: 30px
+
+
+.equipped
+	padding: 20px 0 60px
+	.section_content
+		.equipped_items
+			padding: 15px 0 0
+			margin: 0 -12px
+			display: flex
+			flex-wrap: wrap
+			.equipped_item
+				width: 25%
+				padding: 0 12px 25px
+				.icon_wrap
+					width: 120px
+					height: 120px
+					display: flex
+					margin: 0 auto
+					align-items: center
+					justify-content: center
+					border: 2px solid #037aa9
+					border-radius: 50%
+					margin-bottom: 25px
+				.title
+					font-size: 22px
+					font-weight: 500
+					line-height: 21px
+					margin-bottom: 30px
+					text-align: center
+
 
 .advantages
 	padding: 70px 0
@@ -148,6 +286,259 @@ h2
 					margin-left: 10px
 					display: inline-block
 
+.plan
+	padding: 20px 0 50px
+	.show_plan
+		position: relative
+		top: 20px
+		background-color: #fff
+		padding: 10px 20px
+		border-radius: 5px
+		border: 2px solid #037aa9
+		color: #037aa9
+		font-size: 12px
+		line-height: 14px
+		display: inline-block
+		text-transform: uppercase
+		&.active
+			.lnr
+				transform: rotate(180deg)
+		.lnr
+			color: #ff800f
+			position: relative
+			top: 2px
+			font-size: 14px
+			font-weight: 900
+			margin-left: 10px
+			display: inline-block
+	.plan_content
+		padding: 65px 0
+		background-color: #f7faff
+		border-top: 2px solid #037aa9
+		border-bottom: 2px solid #037aa9
+		.plan_wrap
+			display: flex
+			padding: 20px 0 30px
+			margin: 0 -10px
+			align-items: flex-start
+			.item_1
+				padding: 0 10px
+			.item_2
+				padding: 0 10px
+			.center_plan
+				padding: 0 10px
+				.center_plan_slider
+					border-radius: 5px
+					margin: 0 0 25px
+					width: 720px
+					box-shadow: 5px 15px 40px rgba(0, 0, 0, 0.25)
+					img
+						max-width: 100%
+					.slick-arrow
+						z-index: 1
+						position: absolute
+						top: 50%
+						transform: translateY(-50%)
+						border: none
+						font-size: 0
+						color: #ff800f
+						cursor: pointer
+						background-color: transparent
+						font-family: Linearicons-Free
+						speak: none
+						font-style: normal
+						font-weight: 900
+						font-variant: normal
+						text-transform: none
+						line-height: 1
+						-webkit-font-smoothing: antialiased
+						&.slick-prev
+							left: 10px
+							&:before
+								content: "\e875"
+								font-size: 20px
+						&.slick-next
+							right: 10px
+							&:before
+								content: "\e876"
+								font-size: 20px
+				.title
+					color: #000000
+					font-size: 22px
+					font-weight: 500
+					line-height: 21px
+			.right_plan
+				padding: 0 10px
+				.item
+					margin-bottom: 8px
+					b
+						font-weight: 500
+
+.directions
+	.directions_links
+		margin: 0 -70px
+		padding: 60px 0
+		display: flex
+		.directions_link
+			height: 206px
+			display: flex
+			align-items: stretch
+			justify-content: center
+			border-radius: 10px
+			padding: 30px
+			text-align: center
+			flex-direction: column
+			background-color: #ffffff
+			margin: 0 70px
+			width: calc(33.33% - 140px)
+			box-shadow: 0 4px 20px rgba(66, 165, 245, 0.5)
+			.title
+				font-size: 36px
+				color: #037aa9
+				font-weight: 700
+				line-height: 34px
+				margin-bottom: 28px
+			.text
+				color: #87888a
+				font-size: 22px
+				font-weight: 400
+				line-height: 21px
+				text-transform: uppercase
+			&:hover
+				background-color: #037aa9
+				box-shadow: 5px 5px 30px rgba(66, 165, 245, 0.7)
+				.title
+					color: #fff
+				.text
+					color: #fff
+	.large_image
+		overflow: hidden
+		border-radius: 5px
+		margin-bottom: 40px
+		box-shadow: 5px 15px 40px rgba(0, 0, 0, 0.25)
+		img
+			width: 100%
+	.directions_items
+		display: flex
+		margin: 0 -20px
+		justify-content: center
+		.item
+			width: 25%
+			padding: 0 20px
+			margin-bottom: 30px
+			.title
+				border-radius: 5px
+				border: 2px solid #037aa9
+				background-color: #ffffff
+				line-height: 50px
+				text-align: center
+				color: #000000
+				font-size: 14px
+				margin-bottom: 20px
+			.text
+				color: #000000
+				font-size: 12px
+				font-weight: 400
+				line-height: 11px
+				margin-bottom: 10px
+				min-height: 24px
+			.price
+				text-align: center
+				border-radius: 5px
+				padding: 3px
+				border: 1px solid #c4c4c4
+				.cur
+					text-shadow: 0 4px 20px rgba(66, 165, 245, 0.5)
+					color: #037aa9
+					display: inline-block
+					font-family: "Century Gothic"
+					font-size: 17px
+					font-weight: 700
+					min-width: 45px
+					line-height: 20px
+					padding-right: 15px
+					text-transform: uppercase
+				.val
+					display: inline-block
+					padding-right: 20px
+					span
+						display: none
+						&.active
+							display: block
+
+	.select-hidden
+		display: none
+		visibility: hidden
+		padding-right: 10px
+
+	.select
+		cursor: pointer
+		display: inline-block
+		position: relative
+		background-color: #ffffff
+		font-size: 14px
+		color: #333
+		text-align: left
+
+	.select-styled
+		color: #037aa9
+		font-size: 17px
+		font-weight: 700
+		line-height: 20px
+		text-transform: uppercase
+		font-family: "Century Gothic"
+		text-shadow: 0 4px 20px rgba(66, 165, 245, 0.5)
+		&:after
+			content: "\f078"
+			width: 0
+			height: 0
+			position: absolute
+			top: 0px
+			right: -2px
+			font-size: 10px
+			font-weight: 900
+			font-family: Font Awesome\ 5 Free
+
+		&:active, &.active
+			&:after
+				content: "\f077"
+
+	.select-options
+		display: none
+		position: absolute
+		top: 100%
+		width: calc(100% + 27px)
+		right: 0
+		left: -11px
+		z-index: 999
+		margin: 0
+		padding: 0 0 10px
+		border-radius: 0 0 10px 10px
+		list-style: none
+		border: 1px solid #c4c4c4
+		border-top: none
+		background-color: #fff
+		li
+			margin: 0
+			padding: 6px 0
+			color: #2d2d2d
+			font-size: 14px
+			font-weight: 600
+			line-height: 21.6px
+			position: relative
+			padding-left: 10px
+			&:hover
+				color: #089cd5
+			&.active
+				color: #089cd5
+
+
+			&[rel="hide"]
+				display: none
+
+
+
+
 .team
 	display: none
 	padding: 90px 0 15px
@@ -158,6 +549,44 @@ h2
 	.section_content
 		.team_items
 			padding: 15px 0 0
+			display: flex
+			flex-wrap: wrap
+			.team_item
+				width: 25%
+				text-align: center
+				padding: 10px 16px 25px
+				.stars
+					margin-bottom: 18px
+					i
+						color: #ff800f
+						margin: 0 3px
+				.team_photo
+					border-radius: 50%
+					width: 180px
+					max-width: 100%
+					margin-bottom: 15px
+					display: inline-block
+				.name
+					font-size: 22px
+					font-weight: 400
+					line-height: 24px
+				.position
+					color: #037aa9
+					margin-bottom: 5px
+				hr
+					width: 120px
+					border: none
+					margin: 0 auto 7px
+					border-bottom: 2px solid #ff800f
+				.text
+					font-size: 14px
+					line-height: 16px
+
+
+.team_2
+	padding: 40px 0
+	.section_content
+		.team_items
 			display: flex
 			flex-wrap: wrap
 			.team_item
@@ -234,6 +663,42 @@ h2
 				&:nth-child(5)
 					.text_wrap
 						padding-top: 20px
+
+.cta
+	padding: 50px 0 360px
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: center bottom
+	.cta_form
+		form
+			width: 700px
+			max-width: 100%
+			margin: 0 auto
+			text-align: center
+			input
+				width: 100%
+				border: none
+				color: #283f5b
+				font-size: 18px
+				font-family: "Museo Sans Cyrl"
+				padding: 12px 10px
+				margin-bottom: 40px
+				background-color: transparent
+				border-bottom: 1px solid #283f5b
+				&::-webkit-input-placeholder
+					color: #283f5b
+				&:-moz-placeholder
+					color: #283f5b
+				&::-moz-placeholder
+					color: #283f5b
+				&:-ms-input-placeholder
+					color: #283f5b
+			.submit_btn
+				border: none
+				margin-top: 20px
+				margin-bottom: 45px
+				-webkit-appearance: none
+
 
 .go_to_top
 	position: fixed
@@ -586,6 +1051,333 @@ h2
 						width: 50%
 						cursor: pointer
 
+
+.menu_wrap_2
+	padding: 50px 0
+	z-index: 1
+	position: relative
+	.section_content
+		.description
+			padding: 10px 0
+		.menu_items
+			display: flex
+			flex-wrap: wrap
+			margin: 0 -9px
+			.menu_item
+				width: 33.33%
+				padding: 0 9px
+				margin-bottom: 37px
+				.menu_img
+					border-radius: 10px
+					width: 100%
+					margin-bottom: 20px
+					box-shadow: 5px 15px 40px rgba(0, 0, 0, 0.25)
+				.text_wrap
+					display: flex
+					align-items: center
+					justify-content: space-between
+					.title
+						width: 50%
+						font-size: 22px
+						font-weight: 500
+						line-height: 21px
+						padding-right: 10px
+					.btn_style_2
+						width: 50%
+						cursor: pointer
+						color: #037aa9
+						border: 2px solid #037aa9
+
+.schedule
+	padding: 50px 0
+	.schedule_table
+		margin-bottom: 40px
+		.schedule_head
+			display: flex
+			margin: 0 -10px 10px
+			.column_1
+				width: 40%
+				padding: 0 10px
+				text-align: right
+				.currency
+					width: 242px
+					display: inline-block
+					text-align: center
+					border-radius: 5px
+					padding: 8px
+					border: 1px solid #c4c4c4
+					.cur
+						text-shadow: 0 4px 20px rgba(66, 165, 245, 0.5)
+						color: #037aa9
+						display: inline-block
+						font-family: "Century Gothic"
+						font-size: 17px
+						font-weight: 700
+						min-width: 45px
+						line-height: 20px
+						padding-right: 15px
+						text-transform: uppercase
+					.val_title
+						display: inline-block
+						padding-right: 10px
+						margin-right: 10px
+						border-right: 1px solid #c4c4c4
+			.column_2
+				width: 15%
+				padding: 0 10px
+				.title
+					width: 100%
+					font-size: 22px
+					line-height: 47px
+					border-radius: 5px
+					text-align: center
+					border: 2px solid #037aa9
+			.column_3
+				width: 15%
+				padding: 0 10px
+				.title
+					width: 100%
+					font-size: 22px
+					line-height: 47px
+					border-radius: 5px
+					text-align: center
+					border: 2px solid #037aa9
+			.column_4
+				width: 20%
+				padding: 0 10px
+				.title
+					width: 100%
+					padding: 2px
+					font-size: 22px
+					line-height: 21px
+					border-radius: 5px
+					text-align: center
+					border: 2px solid #037aa9
+			.column_5
+				width: 20%
+				padding: 0 10px
+				.title
+					width: 100%
+					padding: 2px
+					font-size: 22px
+					line-height: 21px
+					border-radius: 5px
+					text-align: center
+					border: 2px solid #037aa9
+		.schedule_content
+			.row_content
+				display: flex
+				margin: 0 -10px 20px
+				.column_1
+					width: 40%
+					padding: 0 10px
+					.large_title
+						width: 100%
+						height: 150px
+						padding: 10px 50px
+						display: flex
+						justify-content: center
+						flex-direction: column
+						border-radius: 10px
+						background-color: #ffffff
+						box-shadow: 0 4px 20px rgba(66, 165, 245, 0.5)
+						.title
+							font-size: 36px
+							color: #037aa9
+							font-weight: 700
+							line-height: 34px
+							margin-bottom: 12px
+						.text
+							color: #87888a
+							font-size: 22px
+							font-weight: 500
+							text-transform: uppercase
+				.column_2
+					width: 15%
+					padding: 0 10px
+					text-align: center
+					line-height: 150px
+					font-size: 14px
+					font-weight: 500
+				.column_3
+					width: 15%
+					padding: 0 10px
+					text-align: center
+					line-height: 150px
+					font-size: 14px
+					font-weight: 500
+				.column_4
+					width: 20%
+					padding: 0 10px
+					text-align: center
+					line-height: 150px
+					font-size: 14px
+					font-weight: 500
+				.column_5
+					width: 20%
+					padding: 0 10px
+					text-align: center
+					line-height: 150px
+					font-size: 14px
+					font-weight: 500
+
+
+
+
+
+	.select-hidden
+		display: none
+		visibility: hidden
+		padding-right: 10px
+
+	.select
+		cursor: pointer
+		display: inline-block
+		position: relative
+		background-color: #ffffff
+		font-size: 14px
+		color: #333
+		width: 100%
+		text-align: left
+
+	.select-styled
+		color: #037aa9
+		font-size: 17px
+		font-weight: 700
+		line-height: 20px
+		text-transform: uppercase
+		font-family: "Century Gothic"
+		text-shadow: 0 4px 20px rgba(66, 165, 245, 0.5)
+		&:after
+			content: "\f078"
+			width: 0
+			height: 0
+			position: absolute
+			top: 0px
+			right: -2px
+			font-size: 10px
+			font-weight: 900
+			font-family: Font Awesome\ 5 Free
+
+		&:active, &.active
+			&:after
+				content: "\f077"
+
+	.select-options
+		display: none
+		position: absolute
+		top: 100%
+		width: calc(100% + 27px)
+		right: 0
+		left: -11px
+		z-index: 999
+		margin: 0
+		padding: 0 0 10px
+		border-radius: 0 0 10px 10px
+		list-style: none
+		border: 1px solid #c4c4c4
+		border-top: none
+		background-color: #fff
+		li
+			margin: 0
+			padding: 6px 0
+			color: #2d2d2d
+			font-size: 14px
+			font-weight: 600
+			line-height: 21.6px
+			position: relative
+			padding-left: 10px
+			&:hover
+				color: #089cd5
+			&.active
+				color: #089cd5
+
+
+			&[rel="hide"]
+				display: none
+
+.included
+	padding: 50px 0
+	.included_items
+		display: flex
+		align-items: flex-start
+		margin: 0 -15px
+		padding: 20px 0 0
+		flex-wrap: wrap
+		.item
+			width: 25%
+			padding: 0 15px
+			display: flex
+			align-items: flex-start
+			margin-bottom: 30px
+			.icon
+				margin-right: 15px
+			.text
+				font-weight: 500
+				font-size: 22px
+			&.middle
+				width: 26%
+			&.large
+				width: 37%
+
+.additional
+	padding: 20px 0 40px
+	.additional_links
+		display: flex
+		flex-wrap: wrap
+		padding: 20px 0 40px
+		margin: 0 -10px 20px
+		.additional_link
+			height: 109px
+			display: flex
+			align-items: center
+			justify-content: center
+			border-radius: 10px
+			padding: 20px
+			text-align: center
+			flex-direction: column
+			background-color: #ffffff
+			margin: 0 10px
+			width: calc(25% - 20px)
+			box-shadow: 0 4px 20px rgba(66, 165, 245, 0.5)
+			.title
+				font-size: 36px
+				color: #037aa9
+				font-weight: 700
+				line-height: 34px
+			&:hover
+				background-color: #037aa9
+				box-shadow: 5px 5px 30px rgba(66, 165, 245, 0.7)
+				.title
+					color: #fff
+	.additional_tabs
+		.additional_tab
+			display: none
+			&.active
+				display: block
+	.additional_content
+		display: flex
+		margin: 0 -10px
+		.left_wrap
+			width: 65%
+			padding: 0 10px
+			img
+				width: 100%
+				border-radius: 5px
+				box-shadow: 5px 15px 40px rgba(0, 0, 0, 0.25)
+		.right_wrap
+			width: 35%
+			padding: 30px 10px 0
+			.title
+				color: #037aa9
+				font-size: 48px
+				font-weight: 500
+				line-height: 45px
+				margin-bottom: 20px
+
+
+
+
 .reviews
 	padding: 20px 0 40px
 	z-index: 1
@@ -792,17 +1584,16 @@ h2
 				padding: 9px 12px
 				max-width: 200px
 
+
+.before_footer_image
+	width: 100%
+
+
 footer
-	padding: 408px 0 10px
+	padding: 20px 0
 	position: relative
 	z-index: 1
 	overflow: hidden
-	.bg_footer
-		position: absolute
-		top: 0
-		z-index: -2
-		left: 50%
-		margin-left: -940px
 	.footer_content
 		display: flex
 		z-index: 1

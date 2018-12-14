@@ -92,6 +92,39 @@ $(document).ready(function(){
     return false;
   });
 
+
+  $(".show_plan").click(function () {
+    $(this).toggleClass("active");
+    $('.plan_content').slideToggle();
+    return false;
+  });
+
+  var photo_gallery_items = $('.photo_gallery_items');
+  photo_gallery_items.slick({
+    slideToShow: 1,
+    infinite: true,
+    pauseOnFocus: true,
+    draggable: true,
+    centerMode: false,
+    autoplay: false,
+    autoplaySpeed: 2000,
+    arrows: true,
+    dots: true
+  });
+
+  var center_plan_slider = $('.center_plan_slider');
+  center_plan_slider.slick({
+    infinite: true,
+    pauseOnFocus: true,
+    draggable: true,
+    centerMode: false,
+    autoplay: false,
+    autoplaySpeed: 2000,
+    arrows: true,
+    dots: false
+  });
+  
+
   var reviews_items = $('.reviews_items');
   reviews_items.slick({
     infinite: true,
@@ -431,6 +464,16 @@ $(document).ready(function(){
         t.play();
       }, 1000);
     }
+
+
+  $('.additional_link').on("click", function(e) {
+    $(this).siblings().removeClass('active');
+    $(this).addClass('active');
+    var id = $(this).index();
+    $(".additional_tab").removeClass('active');
+    $(".additional_tab").eq(id).addClass('active');
+    return false;
+  });
 
   $(".animation_1").animated("fadeIn");
   $(".animation_2").animated("fadeInLeft");

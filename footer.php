@@ -3,7 +3,6 @@
 
 
 	<footer>
-		<img src="img/bg_footer_2.jpg" class="bg_footer" alt="">
 		<div class="footer_white_bg"></div>
 		<div class="container">
 			<div class="footer_content">
@@ -419,7 +418,7 @@
 	<script>loadCSS( "css/fontawesome-all.min.css?ver=1.0.0", false, "all" );</script>
 	<script>loadCSS( "css/jquery.fancybox.min.css?ver=1.0.0", false, "all" );</script>
 	<script>loadCSS( "css/datepicker.min.css?ver=1.0.0", false, "all" );</script>
-	<script>loadCSS( "css/main.min.css?ver=1.0.33", false, "all" );</script>
+	<script>loadCSS( "css/main.min.css?ver=1.0.34", false, "all" );</script>
 	<!-- Load CSS End -->
 
 	<!-- Load Scripts Start -->
@@ -429,7 +428,7 @@
 		{"src" : "js/jquery.fancybox.min.js", "async" : false},
 		{"src" : "js/video.min.js", "async" : false},
 		{"src" : "js/datepicker.min.js", "async" : false},
-		{"src" : "js/common.min.js?33", "async" : false},
+		{"src" : "js/common.min.js?34", "async" : false},
 		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
 	</script>
 	<!-- Load Scripts End -->
