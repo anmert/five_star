@@ -552,8 +552,44 @@
 					margin-bottom: 6px
 				.text
 					font-size: 15px
+		.directions_items_wrap
+			overflow-y: auto
 		.directions_items
+			width: 980px
 			margin: 0 -10px
+			position: relative
+			&:before
+				content: "\e876"
+				font-size: 15px
+				color: #ff800f
+				position: absolute
+				left: 10px
+				bottom: 8px
+				font-family: Linearicons-Free
+				speak: none
+				font-style: normal
+				font-weight: 900
+				font-variant: normal
+				text-transform: none
+				line-height: 1
+				-webkit-font-smoothing: antialiased
+				animation: scrollJump 1s infinite
+			&:after
+				content: "\e876"
+				font-size: 15px
+				position: absolute
+				color: #ff800f
+				left: 20px
+				bottom: 8px
+				font-family: Linearicons-Free
+				speak: none
+				font-style: normal
+				font-weight: 900
+				font-variant: normal
+				text-transform: none
+				line-height: 1
+				-webkit-font-smoothing: antialiased
+				animation: scrollJump 1s infinite
 			.item
 				width: 33.33%
 				padding: 0 10px
@@ -1176,12 +1212,6 @@
 			.directions_link
 				width: 100%
 				margin-bottom: 15px
-	.directions
-		.directions_items
-			flex-wrap: wrap
-			.item
-				width: 100%
-				margin-bottom: 25px
 
 
 /* Custom, iPhone Retina */

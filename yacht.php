@@ -196,131 +196,66 @@
 						<div class="large_image">
 							<img src="img/IMG_1612s22.jpg" alt="">
 						</div>
-						<div class="directions_items">
-							<div class="item">
-								<div class="title">Маршрут 1</div>
-								<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
-								<div class="price">
-									<div class="val">
-										<span class="active">145 000</span>
-										<span>145 000</span>
-										<span>155 000</span>
-										<span>200 350</span>
-									</div>
-									<div class="cur">
-										<select name="Sel" class="custom_select">
-											<option value="1">THB</option>
-											<option value="2">EUR</option>
-											<option value="3">USD</option>
-											<option value="4">RUB</option>
-										</select>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="title">Маршрут 2</div>
-								<div class="text">ПХУКЕТ- о.НАКА - о.РАНГ ЯЙ - ПХУКЕТ</div>
-								<div class="price">
-									<div class="val">
-										<span class="active">145 000</span>
-										<span>145 000</span>
-										<span>185 000</span>
-										<span>200 350</span>
-									</div>
-									<div class="cur">
-										<select name="Sel" class="custom_select">
-											<option value="1">THB</option>
-											<option value="2">EUR</option>
-											<option value="3">USD</option>
-											<option value="4">RUB</option>
-										</select>
+						<div class="directions_items_wrap">
+							<div class="directions_items">
+								<div class="item">
+									<div class="title">Маршрут 1</div>
+									<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
+									<div class="price">
+										<div class="val">
+											<span class="active">145 000</span>
+											<span>145 000</span>
+											<span>155 000</span>
+											<span>200 350</span>
+										</div>
+										<div class="cur">
+											<select name="Sel" class="custom_select">
+												<option value="1">THB</option>
+												<option value="2">EUR</option>
+												<option value="3">USD</option>
+												<option value="4">RUB</option>
+											</select>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="item">
-								<div class="title">Маршрут 3</div>
-								<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
-								<div class="price">
-									<div class="val">
-										<span class="active">50 000</span>
-										<span>50 000</span>
-										<span>60 000</span>
-										<span>100 350</span>
-									</div>
-									<div class="cur">
-										<select name="Sel" class="custom_select">
-											<option value="1">THB</option>
-											<option value="2">EUR</option>
-											<option value="3">USD</option>
-											<option value="4">RUB</option>
-										</select>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="directions_tab">
-						<div class="large_image">
-							<img src="img/IMG_1612s22.jpg" alt="">
-						</div>
-						<div class="directions_items">
-							<div class="item">
-								<div class="title">Маршрут 4</div>
-								<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
-								<div class="price">
-									<div class="val">
-										<span class="active">145 000</span>
-										<span>145 000</span>
-										<span>155 000</span>
-										<span>200 350</span>
-									</div>
-									<div class="cur">
-										<select name="Sel" class="custom_select">
-											<option value="1">THB</option>
-											<option value="2">EUR</option>
-											<option value="3">USD</option>
-											<option value="4">RUB</option>
-										</select>
+								<div class="item">
+									<div class="title">Маршрут 2</div>
+									<div class="text">ПХУКЕТ- о.НАКА - о.РАНГ ЯЙ - ПХУКЕТ</div>
+									<div class="price">
+										<div class="val">
+											<span class="active">145 000</span>
+											<span>145 000</span>
+											<span>185 000</span>
+											<span>200 350</span>
+										</div>
+										<div class="cur">
+											<select name="Sel" class="custom_select">
+												<option value="1">THB</option>
+												<option value="2">EUR</option>
+												<option value="3">USD</option>
+												<option value="4">RUB</option>
+											</select>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="item">
-								<div class="title">Маршрут 5</div>
-								<div class="text">ПХУКЕТ- о.НАКА - о.РАНГ ЯЙ - ПХУКЕТ</div>
-								<div class="price">
-									<div class="val">
-										<span class="active">145 000</span>
-										<span>145 000</span>
-										<span>185 000</span>
-										<span>200 350</span>
-									</div>
-									<div class="cur">
-										<select name="Sel" class="custom_select">
-											<option value="1">THB</option>
-											<option value="2">EUR</option>
-											<option value="3">USD</option>
-											<option value="4">RUB</option>
-										</select>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="title">Маршрут 6</div>
-								<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
-								<div class="price">
-									<div class="val">
-										<span class="active">50 000</span>
-										<span>50 000</span>
-										<span>60 000</span>
-										<span>100 350</span>
-									</div>
-									<div class="cur">
-										<select name="Sel" class="custom_select">
-											<option value="1">THB</option>
-											<option value="2">EUR</option>
-											<option value="3">USD</option>
-											<option value="4">RUB</option>
-										</select>
+								<div class="item">
+									<div class="title">Маршрут 3</div>
+									<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
+									<div class="price">
+										<div class="val">
+											<span class="active">50 000</span>
+											<span>50 000</span>
+											<span>60 000</span>
+											<span>100 350</span>
+										</div>
+										<div class="cur">
+											<select name="Sel" class="custom_select">
+												<option value="1">THB</option>
+												<option value="2">EUR</option>
+												<option value="3">USD</option>
+												<option value="4">RUB</option>
+											</select>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -330,64 +265,215 @@
 						<div class="large_image">
 							<img src="img/IMG_1612s22.jpg" alt="">
 						</div>
-						<div class="directions_items">
-							<div class="item">
-								<div class="title">Маршрут 7</div>
-								<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
-								<div class="price">
-									<div class="val">
-										<span class="active">145 000</span>
-										<span>145 000</span>
-										<span>155 000</span>
-										<span>200 350</span>
+						<div class="directions_items_wrap">
+							<div class="directions_items">
+								<div class="item">
+									<div class="title">Маршрут 4</div>
+									<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
+									<div class="price">
+										<div class="val">
+											<span class="active">145 000</span>
+											<span>145 000</span>
+											<span>155 000</span>
+											<span>200 350</span>
+										</div>
+										<div class="cur">
+											<select name="Sel" class="custom_select">
+												<option value="1">THB</option>
+												<option value="2">EUR</option>
+												<option value="3">USD</option>
+												<option value="4">RUB</option>
+											</select>
+										</div>
 									</div>
-									<div class="cur">
-										<select name="Sel" class="custom_select">
-											<option value="1">THB</option>
-											<option value="2">EUR</option>
-											<option value="3">USD</option>
-											<option value="4">RUB</option>
-										</select>
+								</div>
+								<div class="item">
+									<div class="title">Маршрут 5</div>
+									<div class="text">ПХУКЕТ- о.НАКА - о.РАНГ ЯЙ - ПХУКЕТ</div>
+									<div class="price">
+										<div class="val">
+											<span class="active">145 000</span>
+											<span>145 000</span>
+											<span>185 000</span>
+											<span>200 350</span>
+										</div>
+										<div class="cur">
+											<select name="Sel" class="custom_select">
+												<option value="1">THB</option>
+												<option value="2">EUR</option>
+												<option value="3">USD</option>
+												<option value="4">RUB</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="title">Маршрут 6</div>
+									<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
+									<div class="price">
+										<div class="val">
+											<span class="active">50 000</span>
+											<span>50 000</span>
+											<span>60 000</span>
+											<span>100 350</span>
+										</div>
+										<div class="cur">
+											<select name="Sel" class="custom_select">
+												<option value="1">THB</option>
+												<option value="2">EUR</option>
+												<option value="3">USD</option>
+												<option value="4">RUB</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="title">Маршрут 6.2</div>
+									<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
+									<div class="price">
+										<div class="val">
+											<span class="active">50 000</span>
+											<span>50 000</span>
+											<span>60 000</span>
+											<span>100 350</span>
+										</div>
+										<div class="cur">
+											<select name="Sel" class="custom_select">
+												<option value="1">THB</option>
+												<option value="2">EUR</option>
+												<option value="3">USD</option>
+												<option value="4">RUB</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="title">Маршрут 6.3</div>
+									<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
+									<div class="price">
+										<div class="val">
+											<span class="active">50 000</span>
+											<span>50 000</span>
+											<span>60 000</span>
+											<span>100 350</span>
+										</div>
+										<div class="cur">
+											<select name="Sel" class="custom_select">
+												<option value="1">THB</option>
+												<option value="2">EUR</option>
+												<option value="3">USD</option>
+												<option value="4">RUB</option>
+											</select>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="item">
-								<div class="title">Маршрут 8</div>
-								<div class="text">ПХУКЕТ- о.НАКА - о.РАНГ ЯЙ - ПХУКЕТ</div>
-								<div class="price">
-									<div class="val">
-										<span class="active">145 000</span>
-										<span>145 000</span>
-										<span>185 000</span>
-										<span>200 350</span>
-									</div>
-									<div class="cur">
-										<select name="Sel" class="custom_select">
-											<option value="1">THB</option>
-											<option value="2">EUR</option>
-											<option value="3">USD</option>
-											<option value="4">RUB</option>
-										</select>
+						</div>
+					</div>
+					<div class="directions_tab">
+						<div class="large_image">
+							<img src="img/IMG_1612s22.jpg" alt="">
+						</div>
+						<div class="directions_items_wrap">
+							<div class="directions_items">
+								<div class="item">
+									<div class="title">Маршрут 7</div>
+									<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
+									<div class="price">
+										<div class="val">
+											<span class="active">145 000</span>
+											<span>145 000</span>
+											<span>155 000</span>
+											<span>200 350</span>
+										</div>
+										<div class="cur">
+											<select name="Sel" class="custom_select">
+												<option value="1">THB</option>
+												<option value="2">EUR</option>
+												<option value="3">USD</option>
+												<option value="4">RUB</option>
+											</select>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="item">
-								<div class="title">Маршрут 9</div>
-								<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
-								<div class="price">
-									<div class="val">
-										<span class="active">50 000</span>
-										<span>50 000</span>
-										<span>60 000</span>
-										<span>100 350</span>
+								<div class="item">
+									<div class="title">Маршрут 8</div>
+									<div class="text">ПХУКЕТ- о.НАКА - о.РАНГ ЯЙ - ПХУКЕТ</div>
+									<div class="price">
+										<div class="val">
+											<span class="active">145 000</span>
+											<span>145 000</span>
+											<span>185 000</span>
+											<span>200 350</span>
+										</div>
+										<div class="cur">
+											<select name="Sel" class="custom_select">
+												<option value="1">THB</option>
+												<option value="2">EUR</option>
+												<option value="3">USD</option>
+												<option value="4">RUB</option>
+											</select>
+										</div>
 									</div>
-									<div class="cur">
-										<select name="Sel" class="custom_select">
-											<option value="1">THB</option>
-											<option value="2">EUR</option>
-											<option value="3">USD</option>
-											<option value="4">RUB</option>
-										</select>
+								</div>
+								<div class="item">
+									<div class="title">Маршрут 9</div>
+									<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
+									<div class="price">
+										<div class="val">
+											<span class="active">50 000</span>
+											<span>50 000</span>
+											<span>60 000</span>
+											<span>100 350</span>
+										</div>
+										<div class="cur">
+											<select name="Sel" class="custom_select">
+												<option value="1">THB</option>
+												<option value="2">EUR</option>
+												<option value="3">USD</option>
+												<option value="4">RUB</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="title">Маршрут 9</div>
+									<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
+									<div class="price">
+										<div class="val">
+											<span class="active">50 000</span>
+											<span>50 000</span>
+											<span>60 000</span>
+											<span>100 350</span>
+										</div>
+										<div class="cur">
+											<select name="Sel" class="custom_select">
+												<option value="1">THB</option>
+												<option value="2">EUR</option>
+												<option value="3">USD</option>
+												<option value="4">RUB</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="title">Маршрут 9</div>
+									<div class="text">ПХУКЕТ- о.ПАНАК ЗАЛИВ ПХА-НГА - о.ХОНГ (ЗАЛИВ ПХА-НГА) - ПХУКЕТ</div>
+									<div class="price">
+										<div class="val">
+											<span class="active">50 000</span>
+											<span>50 000</span>
+											<span>60 000</span>
+											<span>100 350</span>
+										</div>
+										<div class="cur">
+											<select name="Sel" class="custom_select">
+												<option value="1">THB</option>
+												<option value="2">EUR</option>
+												<option value="3">USD</option>
+												<option value="4">RUB</option>
+											</select>
+										</div>
 									</div>
 								</div>
 							</div>
