@@ -7,8 +7,8 @@
 				<div class="head_content">
 					<h1 class="animation_1" style="animation-duration: 2s;animation-delay: 1s">Круиз на Пхукете</h1>
 					<div class="main_head_desc animation_1" style="animation-duration: 2s;animation-delay: 1.1s">Отправьтесь навстречу ветру, морю <br>и дивной природе, выбрав один <br>из наших готовых маршрутов <br>или составьте свой</div>
-					<a href="#" class="btn_style animation_1" style="animation-duration: 2s;animation-delay: 1.2s" data-remodal-target="modal_reserve">Маршруты на яхте</a>
 					<a href="#" class="btn_style animation_1" style="animation-duration: 2s;animation-delay: 1.2s" data-remodal-target="modal_reserve">Маршруты на катамаране</a>
+					<a href="#" class="btn_style animation_1" style="animation-duration: 2s;animation-delay: 1.2s" data-remodal-target="modal_reserve">Маршруты на яхте</a>
 				</div>
 			</div>
 		</div>
