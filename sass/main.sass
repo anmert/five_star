@@ -86,7 +86,7 @@ h2
 				.text
 
 .photo_gallery
-	padding: 10px 0
+	padding: 10px 0 30px
 	.photo_gallery_items
 		.item
 			img
@@ -95,12 +95,16 @@ h2
 			z-index: 1
 			position: absolute
 			top: 50%
+			width: 36px
+			height: 36px
+			border-radius: 50%
 			transform: translateY(-50%)
 			border: none
 			font-size: 0
-			color: #fff
+			color: #ff800f
 			cursor: pointer
-			background-color: transparent
+			text-align: center
+			background-color: #fff
 			font-family: Linearicons-Free
 			speak: none
 			font-style: normal
@@ -114,16 +118,18 @@ h2
 				margin-left: -630px
 				&:before
 					content: "\e875"
-					font-size: 20px
+					font-size: 18px
+					line-height: 36px
 			&.slick-next
 				right: 50%
 				margin-right: -630px
 				&:before
 					content: "\e876"
-					font-size: 20px
+					font-size: 18px
+					line-height: 36px
 		.slick-dots
 			position: absolute
-			bottom: 30px
+			bottom: -30px
 			left: 50%
 			transform: translateX(-50%)
 			li
@@ -142,8 +148,19 @@ h2
 					button
 						background-color: #037aa9
 
-
-
+.routers_map
+	z-index: -1
+	position: relative
+	padding: 50px 0 100px
+	min-height: 900px
+	.routers_map_img
+		position: absolute
+		bottom: 0
+		left: 50%
+		transform: translateX(-50%)
+	h2
+		color: #fff
+		
 .relax
 	padding: 50px 0 60px
 	background-color: #f7faff
@@ -379,6 +396,7 @@ h2
 		margin: 0 -70px
 		padding: 60px 0
 		display: flex
+		justify-content: center
 		.directions_link
 			height: 206px
 			display: flex
@@ -416,6 +434,98 @@ h2
 			display: none
 			&.active
 				display: block
+			&.route_type_tab
+				width: 995px
+				max-width: 100%
+				margin: 0 auto
+			.route_items_wrap
+				.desc_text
+					column-count: 2
+					column-gap: 15px
+				.router_links
+					display: flex
+					margin: 0 -20px
+					padding: 30px 0
+					justify-content: center
+					a
+						width: calc(33.33% - 40px)
+						margin: 0 20px 20px
+						padding: 12px
+						text-align: center
+						border-radius: 5px
+						border: 2px solid #037aa9
+						background-color: #ffffff
+						&.active
+							color: #fff
+							background-color: #037aa9
+				.route_tabs
+					.route_tab
+						display: none
+						flex-wrap: wrap
+						margin: 0 -15px
+						&.active
+							display: flex
+						.left_wrap
+							width: 65%
+							padding: 0 15px
+							img
+								width: 100%
+								border-radius: 5px
+								box-shadow: 5px 15px 40px rgba(0, 0, 0, 0.25)
+						.right_wrap
+							width: 35%
+							padding: 0 15px
+							.title
+								color: #037aa9
+								font-size: 36px
+								font-weight: 400
+								line-height: 34px
+								margin-bottom: 30px
+							.route_params
+								margin-bottom: 15px
+								.item
+									color: #000000
+									font-size: 18px
+									font-weight: 300
+									line-height: 21px
+									margin-bottom: 10px
+									b
+										font-weight: 500
+							.price
+								text-align: center
+								border-radius: 5px
+								padding: 3px
+								margin-bottom: 20px
+								border: 1px solid #c4c4c4
+								.cur
+									text-shadow: 0 4px 20px rgba(66, 165, 245, 0.5)
+									color: #037aa9
+									display: inline-block
+									font-family: "Century Gothic"
+									font-size: 17px
+									font-weight: 700
+									min-width: 45px
+									line-height: 20px
+									padding-right: 15px
+									text-transform: uppercase
+								.val
+									display: inline-block
+									padding-right: 20px
+									span
+										display: none
+										&.active
+											display: block
+							.btn_style
+								width: 100%
+						.center_wrap
+							width: 100%
+							column-count: 2
+							column-gap: 15px
+							padding: 20px 15px 0
+
+
+
+
 	.large_image
 		overflow: hidden
 		border-radius: 5px

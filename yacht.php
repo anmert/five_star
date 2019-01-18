@@ -16,7 +16,7 @@
 				</div>
 			</div>
 		</div>
-		<img src="img/main_bg_laout.svg" alt="" class="main_laout animation_1">
+		<img data-src="img/main_bg_laout.svg" alt="" class="main_laout animation_1">
 	</div>
 
 	
@@ -26,22 +26,22 @@
 				<h2 class="animation_1">Морской круиз с FIVE STAR CRUISES это…</h2>
 				<div class="feature_items">
 					<div class="feature_item">
-						<img src="img/feature1.jpg" class="feature_item_image" alt="">
+						<img data-src="img/feature1.jpg" class="feature_item_image" alt="">
 						<div class="title">Комфорт</div>
 						<div class="text">Отдых без ограничений. Для вас пресная вода без ограничений, площадка для солнечных ванн и оборудованная всем необходимым кухня. А для желающих попробовать кокосовый коктейль и не только бар, где находится все самое необходимое. Вместительность судна — до 18 человек днем и до 8 ночью.</div>
 					</div>
 					<div class="feature_item">
-						<img src="img/feature2.jpg" class="feature_item_image" alt="">
+						<img data-src="img/feature2.jpg" class="feature_item_image" alt="">
 						<div class="title">Скорость</div>
 						<div class="text">Удивительное сочетание захватывающей скорости и медитативного уединения. Яхта Princess 64 - бескомпромиссный способ насладиться Пхукетом даже за короткий срок.</div>
 					</div>
 					<div class="feature_item">
-						<img src="img/feature3.jpg" class="feature_item_image" alt="">
+						<img data-src="img/feature3.jpg" class="feature_item_image" alt="">
 						<div class="title">Безопасность</div>
 						<div class="text">Умная система anti-roll снижает риск укачивания на 60%. Гидравлическая платформа позволяет комфортно спускаться и подниматься на борт даже во время активных занятий водным спортом.</div>
 					</div>
 					<div class="feature_item">
-						<img src="img/feature4.jpg" class="feature_item_image" alt="">
+						<img data-src="img/feature4.jpg" class="feature_item_image" alt="">
 						<div class="title">Приключения</div>
 						<div class="text">Станьте Индианой Джонсом и напишите свой сценарий морского путешествия. Оставьте за бортом все невзгоды и отправьтесь навстречу новым впечатлениям!</div>
 					</div>
@@ -59,16 +59,16 @@
 		</div>
 		<div class="photo_gallery_items">
 			<div class="item">
-			<img src="img/bg5.jpg" alt="">
+				<img data-src="img/bg5.jpg" alt="">
 			</div>
 			<div class="item">
-				<img src="img/bg5.jpg" alt="">
+				<img data-src="img/bg5.jpg" alt="">
 			</div>
 			<div class="item">
-				<img src="img/bg5.jpg" alt="">
+				<img data-src="img/bg5.jpg" alt="">
 			</div>
 			<div class="item">
-				<img src="img/bg5.jpg" alt="">
+				<img data-src="img/bg5.jpg" alt="">
 			</div>
 		</div>
 	</section>
@@ -85,16 +85,16 @@
 					<h2>План палуб и технические характеристики</h2>
 					<div class="plan_wrap">
 						<div class="item_1">
-							<img src="img/plan1.png" alt="">
+							<img data-src="img/plan1.png" alt="">
 						</div>
 						<div class="item_2">
-							<img src="img/plan2.png" alt="">
+							<img data-src="img/plan2.png" alt="">
 						</div>
 						<div class="center_plan">
 							<div class="center_plan_slider">
-								<img src="img/plan3.png" alt="">
-								<img src="img/plan3.png" alt="">
-								<img src="img/plan3.png" alt="">
+								<img data-src="img/plan3.png" alt="">
+								<img data-src="img/plan3.png" alt="">
+								<img data-src="img/plan3.png" alt="">
 							</div>
 							<div class="title">План флайбриджа</div>
 						</div>
@@ -122,49 +122,49 @@
 				<div class="equipped_items">
 					<div class="equipped_item">
 						<div class="icon_wrap">
-							<img src="img/icon5.png" alt="">
+							<img data-src="img/icon5.png" alt="">
 						</div>
 						<div class="title">Кондиционеры в каждом помещении</div>
 					</div>
 					<div class="equipped_item">
 						<div class="icon_wrap">
-							<img src="img/icon6.png" alt="">
+							<img data-src="img/icon6.png" alt="">
 						</div>
 						<div class="title">Пресная вода в неограниченном количестве</div>
 					</div>
 					<div class="equipped_item">
 						<div class="icon_wrap">
-							<img src="img/icon7.png" alt="">
+							<img data-src="img/icon7.png" alt="">
 						</div>
 						<div class="title">Кухня, обеденная зона <br>и все для барбекю</div>
 					</div>
 					<div class="equipped_item">
 						<div class="icon_wrap">
-							<img src="img/icon8.png" alt="">
+							<img data-src="img/icon8.png" alt="">
 						</div>
 						<div class="title">20 комплектов масок <br>и ласт для снорклинга</div>
 					</div>
 					<div class="equipped_item">
 						<div class="icon_wrap">
-							<img src="img/icon9.png" alt="">
+							<img data-src="img/icon9.png" alt="">
 						</div>
 						<div class="title">Wi-Fi и современная аудиосистема </div>
 					</div>
 					<div class="equipped_item">
 						<div class="icon_wrap">
-							<img src="img/icon10.png" alt="">
+							<img data-src="img/icon10.png" alt="">
 						</div>
 						<div class="title">Бар, лежаки и зона для загара на крыше яхты </div>
 					</div>
 					<div class="equipped_item">
 						<div class="icon_wrap">
-							<img src="img/icon11.png" alt="">
+							<img data-src="img/icon11.png" alt="">
 						</div>
 						<div class="title">Моторная лодка, каяки <br>и вейкборд</div>
 					</div>
 					<div class="equipped_item">
 						<div class="icon_wrap">
-							<img src="img/icon12.png" alt="">
+							<img data-src="img/icon12.png" alt="">
 						</div>
 						<div class="title">35 спасательных жилетов</div>
 					</div>
@@ -194,7 +194,7 @@
 				<div class="directions_tabs">
 					<div class="directions_tab active">
 						<div class="large_image">
-							<img src="img/IMG_1612s22.jpg" alt="">
+							<img data-src="img/IMG_1612s22.jpg" alt="">
 						</div>
 						<div class="directions_items_wrap">
 							<div class="directions_items">
@@ -263,7 +263,7 @@
 					</div>
 					<div class="directions_tab">
 						<div class="large_image">
-							<img src="img/IMG_1612s22.jpg" alt="">
+							<img data-src="img/IMG_1612s22.jpg" alt="">
 						</div>
 						<div class="directions_items_wrap">
 							<div class="directions_items">
@@ -372,7 +372,7 @@
 					</div>
 					<div class="directions_tab">
 						<div class="large_image">
-							<img src="img/IMG_1612s22.jpg" alt="">
+							<img data-src="img/IMG_1612s22.jpg" alt="">
 						</div>
 						<div class="directions_items_wrap">
 							<div class="directions_items">
@@ -491,42 +491,42 @@
 				<div class="description animation_1">Мы предлагаем на борту блюда из ресторана домашнего типа VESU, где хозяева влюблены в свое дело. Еда готовится в день отправления. В длительные поездки с вами может отправиться шеф-повара за дополнительную плату, или вы можете останавливаться на ночь в гостиницах на островах и ужинать в местных ресторанах.</div>
 				<div class="menu_items">
 					<div class="menu_item">
-						<img src="img/menu1.jpg" alt="" class="menu_img">
+						<img data-src="img/menu1.jpg" alt="" class="menu_img">
 						<div class="text_wrap">
 							<div class="title">Классическое круизное меню</div>
 							<div class="btn_style_2 show_menu_slider">ПОДРОБНЕЕ</div>
 						</div>
 					</div>
 					<div class="menu_item">
-						<img src="img/menu2.jpg" alt="" class="menu_img">
+						<img data-src="img/menu2.jpg" alt="" class="menu_img">
 						<div class="text_wrap">
 							<div class="title">Тайское <br>меню</div>
 							<div class="btn_style_2 show_menu_slider">ПОДРОБНЕЕ</div>
 						</div>
 					</div>
 					<div class="menu_item">
-						<img src="img/menu3.jpg" alt="" class="menu_img">
+						<img data-src="img/menu3.jpg" alt="" class="menu_img">
 						<div class="text_wrap">
 							<div class="title">Детское <br>меню</div>
 							<div class="btn_style_2 show_menu_slider">ПОДРОБНЕЕ</div>
 						</div>
 					</div>
 					<div class="menu_item">
-						<img src="img/menu4.jpg" alt="" class="menu_img">
+						<img data-src="img/menu4.jpg" alt="" class="menu_img">
 						<div class="text_wrap">
 							<div class="title">Вегетарианское меню</div>
 							<div class="btn_style_2 show_menu_slider">ПОДРОБНЕЕ</div>
 						</div>
 					</div>
 					<div class="menu_item">
-						<img src="img/menu5.jpg" alt="" class="menu_img">
+						<img data-src="img/menu5.jpg" alt="" class="menu_img">
 						<div class="text_wrap">
 							<div class="title">Барбекю</div>
 							<div class="btn_style_2 show_menu_slider">ПОДРОБНЕЕ</div>
 						</div>
 					</div>
 					<div class="menu_item">
-						<img src="img/menu6.jpg" alt="" class="menu_img">
+						<img data-src="img/menu6.jpg" alt="" class="menu_img">
 						<div class="text_wrap">
 							<div class="title">Морепродукты</div>
 							<div class="btn_style_2 show_menu_slider">ПОДРОБНЕЕ</div>
@@ -721,47 +721,47 @@
 				<h2 class="animation_1">Включено в чартер</h2>
 				<div class="included_items">
 					<div class="item">
-						<img src="img/check-mark.png" alt="" class="icon">
+						<img data-src="img/check-mark.png" alt="" class="icon">
 						<div class="text">Аренда яхты класса люкс с комфортабельными номерами</div>
 					</div>
 					<div class="item">
-						<img src="img/check-mark.png" alt="" class="icon">
+						<img data-src="img/check-mark.png" alt="" class="icon">
 						<div class="text">Профессиональная и отзывчивая команда: капитан, матрос, хостесс</div>
 					</div>
 					<div class="item">
-						<img src="img/check-mark.png" alt="" class="icon">
+						<img data-src="img/check-mark.png" alt="" class="icon">
 						<div class="text">Полная страховка на все время чартера на судно и на каждого гостя на борту</div>
 					</div>
 					<div class="item">
-						<img src="img/check-mark.png" alt="" class="icon">
+						<img data-src="img/check-mark.png" alt="" class="icon">
 						<div class="text">Налоги и сборы национальных парков</div>
 					</div>
 					<div class="item">
-						<img src="img/check-mark.png" alt="" class="icon">
+						<img data-src="img/check-mark.png" alt="" class="icon">
 						<div class="text">Прохладительные безалкогольные напитки, вода, соки, чай, кофе</div>
 					</div>
 					<div class="item">
-						<img src="img/check-mark.png" alt="" class="icon">
+						<img data-src="img/check-mark.png" alt="" class="icon">
 						<div class="text">Полотенца и халаты, косметические и банные принадлежности</div>
 					</div>
 					<div class="item">
-						<img src="img/check-mark.png" alt="" class="icon">
+						<img data-src="img/check-mark.png" alt="" class="icon">
 						<div class="text">Оборудование для снорклинга: 20 комплектов масок и ластов разного размера, вейкборд, 2 каяка</div>
 					</div>
 					<div class="item">
-						<img src="img/check-mark.png" alt="" class="icon">
+						<img data-src="img/check-mark.png" alt="" class="icon">
 						<div class="text">Высокоскоростной Wi-Fi</div>
 					</div>
 					<div class="item large">
-						<img src="img/check-mark.png" alt="" class="icon">
+						<img data-src="img/check-mark.png" alt="" class="icon">
 						<div class="text">Комфортабельный трансфер на минивэне/автомобиле премиум класса до порта и обратно (от гостиницы, из аэропорта)</div>
 					</div>
 					<div class="item middle">
-						<img src="img/check-mark.png" alt="" class="icon">
+						<img data-src="img/check-mark.png" alt="" class="icon">
 						<div class="text">Кейтеринг на 10 человек: классическое круизное, тайское и детское меню.</div>
 					</div>
 					<div class="item large">
-						<img src="img/check-mark.png" alt="" class="icon">
+						<img data-src="img/check-mark.png" alt="" class="icon">
 						<div class="text">Обед и закуски, сезонные фрукты для поездок на 1 день/полдня +	ужин и завтрак для круиза 2 дня/1 ночь</div>
 					</div>
 				</div>
@@ -792,7 +792,7 @@
 					<div class="additional_tab active">
 						<div class="additional_content">
 							<div class="left_wrap">
-								<img src="img/IMG_161.jpg" alt="">
+								<img data-src="img/IMG_161.jpg" alt="">
 							</div>
 							<div class="right_wrap">
 								<div class="title">Удочки для рыбалки</div>
@@ -805,7 +805,7 @@
 					<div class="additional_tab">
 						<div class="additional_content">
 							<div class="left_wrap">
-								<img src="img/IMG_161.jpg" alt="">
+								<img data-src="img/IMG_161.jpg" alt="">
 							</div>
 							<div class="right_wrap">
 								<div class="title">Фотосъемка</div>
@@ -818,7 +818,7 @@
 					<div class="additional_tab">
 						<div class="additional_content">
 							<div class="left_wrap">
-								<img src="img/IMG_161.jpg" alt="">
+								<img data-src="img/IMG_161.jpg" alt="">
 							</div>
 							<div class="right_wrap">
 								<div class="title">Питание</div>
@@ -831,7 +831,7 @@
 					<div class="additional_tab">
 						<div class="additional_content">
 							<div class="left_wrap">
-								<img src="img/IMG_161.jpg" alt="">
+								<img data-src="img/IMG_161.jpg" alt="">
 							</div>
 							<div class="right_wrap">
 								<div class="title">Праздник</div>
@@ -853,28 +853,28 @@
 				<div class="conditions_items">
 					<div class="conditions_item">
 						<div class="icon_wrap">
-							<img src="img/icon13.png" class="conditions_icon" alt="">
+							<img data-src="img/icon13.png" class="conditions_icon" alt="">
 						</div>
 						<div class="title">Оплата</div>
 						<div class="text">Предоплата 50% вносится за 30 дней, оставшаяся сумма вносится не позднее, чем за 3 дня до отправки. 100% предоплата при бронировании менее чем за 30 дней</div>
 					</div>
 					<div class="conditions_item">
 						<div class="icon_wrap">
-							<img src="img/icon15.png" class="conditions_icon" alt="">
+							<img data-src="img/icon15.png" class="conditions_icon" alt="">
 						</div>
 						<div class="title">Топливо</div>
 						<div class="text">4 часа работы двигателя входит в аренду яхты на один день, 1,5 часа — при аренде на полдня. Каждый дополнительный час работы двигателя — 15.000 THB. Каждый дополнительный час работы экипажа — 20.000 THB. Дополнительный сбор при поездках на Симиланские острова — 50.000 THB </div>
 					</div>
 					<div class="conditions_item">
 						<div class="icon_wrap">
-							<img src="img/icon16.png" class="conditions_icon" alt="">
+							<img data-src="img/icon16.png" class="conditions_icon" alt="">
 						</div>
 						<div class="title">Отмена брони</div>
 						<div class="text">При отмене бронирования удерживается процент от стоимости чартера: - 25% при отмене более чем за 30 дней - 50% от 30 до 14 дней до отправления - 100% при отмене менее чем за 14 дней </div>
 					</div>
 					<div class="conditions_item">
 						<div class="icon_wrap">
-							<img src="img/icon14.png" class="conditions_icon" alt="">
+							<img data-src="img/icon14.png" class="conditions_icon" alt="">
 						</div>
 						<div class="title">Депозит</div>
 						<div class="text">Депозит в размере 30000 THB взимается перед выходом в море и возвращается по прибытии в порт.</div>
@@ -892,7 +892,7 @@
 				<div class="team_items">
 					<div class="team_item">
 						<div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-						<img src="img/team1.png" class="team_photo" alt="">
+						<img data-src="img/team1.png" class="team_photo" alt="">
 						<div class="name">Иб</div>
 						<div class="position">Капитан - стаж 15 лет </div>
 						<hr>
@@ -900,7 +900,7 @@
 					</div>
 					<div class="team_item">
 						<div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-						<img src="img/team2.png" class="team_photo" alt="">
+						<img data-src="img/team2.png" class="team_photo" alt="">
 						<div class="name">Сэм</div>
 						<div class="position">Матрос - стаж 20 лет</div>
 						<hr>
@@ -908,7 +908,7 @@
 					</div>
 					<div class="team_item">
 						<div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-						<img src="img/team3.png" class="team_photo" alt="">
+						<img data-src="img/team3.png" class="team_photo" alt="">
 						<div class="name">Ной</div>
 						<div class="position">Стюардесса - стаж 15 лет</div>
 						<hr>
@@ -916,7 +916,7 @@
 					</div>
 					<div class="team_item">
 						<div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-						<img src="img/team4.png" class="team_photo" alt="">
+						<img data-src="img/team4.png" class="team_photo" alt="">
 						<div class="name">Вероника</div>
 						<div class="position">Менеджер - стаж 8 лет</div>
 						<hr>

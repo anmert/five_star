@@ -7,11 +7,11 @@
 		<div class="container">
 			<div class="footer_content">
 				<div class="social_links">
-					<a href="https://www.facebook.com/fivestarcruises/"><img src="img/facebook.png" alt=""></a>
-					<a href="https://www.instagram.com/fivestarcruises/"><img src="img/instagram.png" alt=""></a>
+					<a href="https://www.facebook.com/fivestarcruises/"><img data-src="img/facebook.png" alt=""></a>
+					<a href="https://www.instagram.com/fivestarcruises/"><img data-src="img/instagram.png" alt=""></a>
 				</div>
 				<a href="/" class="footer_logo">
-					<img src="img/logo.png" alt="Logo" title="Logo">
+					<img data-src="img/logo.png" alt="Logo" title="Logo">
 				</a>
 				<div class="footer_text">TAT LICENSE ХХХХХХХ (Tourism Authority <br>of Thailand)(ссылка на скан) <br>
 				© 2018 FIVE STAR SEA CRUISES</div>
@@ -71,7 +71,7 @@
 
 				<div class="date_input">
 					<input type="text" name="daterange" placeholder="Выберете дату">
-					<img src="img/calendar.png" alt="" class="calendar">
+					<img data-src="img/calendar.png" alt="" class="calendar">
 				</div>
 
 				<button type="submit" class="btn_submit btn_style">ОТПРАВИТЬ ЗАЯВКУ</button>
@@ -424,6 +424,7 @@
 	<!-- Load Scripts Start -->
 	<script>var scr = {"scripts":[
 		{"src" : "js/libs.js", "async" : false},
+		{"src" : "js/lazyload.min.js", "async" : false},
 		{"src" : "js/remodal.min.js", "async" : false},
 		{"src" : "js/jquery.fancybox.min.js", "async" : false},
 		{"src" : "js/video.min.js", "async" : false},

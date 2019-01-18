@@ -479,8 +479,8 @@ $(document).ready(function(){
     $(this).siblings().removeClass('active');
     $(this).addClass('active');
     var id = $(this).index();
-    $(".directions_tab").removeClass('active');
-    $(".directions_tab").eq(id).addClass('active');
+    $(this).parents(".section_content").find(".directions_tab").removeClass('active');
+    $(this).parents(".section_content").find(".directions_tab").eq(id).addClass('active');
     return false;
   });
 
@@ -493,6 +493,23 @@ $(document).ready(function(){
     $(".additional_tab").eq(id).addClass('active');
     return false;
   });
+
+
+  $('.router_links a').on("click", function(e) {
+    $(this).siblings().removeClass('active');
+    $(this).addClass('active');
+    var id = $(this).index();
+    $(this).parents(".route_items_wrap").find(".route_tab").removeClass('active');
+    $(this).parents(".route_items_wrap").find(".route_tab").eq(id).addClass('active');
+    return false;
+  });
+
+
+  LL = new LazyLoad({
+    elements_selector: ".lazy_bg",
+  });
+
+  new LazyLoad();
 
   $(".animation_1").animated("fadeIn");
   $(".animation_2").animated("fadeInLeft");

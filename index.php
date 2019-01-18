@@ -27,19 +27,19 @@
 				<div class="description animation_1">Компания FIVE STAR SEA CRUISES приглашает вас отправиться в увлекательное путешествие на яхте по просторам <br>Андаманского моря. Гарантируем комфорт и безмятежность, эксклюзивный отдых, высокий уровень обслуживания и <br>отзывчивый персонал.</div>
 				<div class="about_items">
 					<div class="about_item">
-						<img src="img/about1.png" class="about_item_image" alt="">
+						<img data-src="img/about1.png" class="about_item_image" alt="">
 						<div class="title">Семейная прогулка <br>с детьми</div>
 					</div>
 					<div class="about_item">
-						<img src="img/about2.png" class="about_item_image" alt="">
+						<img data-src="img/about2.png" class="about_item_image" alt="">
 						<div class="title">Романтическое путешествие </div>
 					</div>
 					<div class="about_item">
-						<img src="img/about3.png" class="about_item_image" alt="">
+						<img data-src="img/about3.png" class="about_item_image" alt="">
 						<div class="title">Вечеринка <br>с друзьями</div>
 					</div>
 					<div class="about_item">
-						<img src="img/about4.png" class="about_item_image" alt="">
+						<img data-src="img/about4.png" class="about_item_image" alt="">
 						<div class="title">Корпоратив и поездка с партнерами по бизнесу</div>
 					</div>
 				</div>
@@ -54,28 +54,28 @@
 				<div class="relax_items">
 					<div class="relax_item">
 						<div class="icon_wrap">
-							<img src="img/sunset.png" class="relax_icon" alt="">
+							<img data-src="img/sunset.png" class="relax_icon" alt="">
 						</div>
 						<div class="title">Незабываемый отдых в открытом море</div>
 						<div class="text">Синее небо, яркое солнце, ветер, волны, дельфины, уединенные пляжи, красивые бухты, тайные гроты, неповторимые морские рассветы и закаты, вкусная еда на свежем воздухе, комфортабельные каюты, фотосессия на фоне экзотической природы.</div>
 					</div>
 					<div class="relax_item">
 						<div class="icon_wrap">
-							<img src="img/bagpack.png" class="relax_icon" alt="">
+							<img data-src="img/bagpack.png" class="relax_icon" alt="">
 						</div>
 						<div class="title">Эксклюзивные экскурсии на острова</div>
 						<div class="text">Маршрут вашего путешествия зависит только от вас. Вы можете составить свой собственный необычный маршрут — посетить много интересных мест в уединенной обстановке. С моря открываются красивые места, в которые невозможно добраться по земле.</div>
 					</div>
 					<div class="relax_item">
 						<div class="icon_wrap">
-							<img src="img/diving-mask.png" class="relax_icon" alt="">
+							<img data-src="img/diving-mask.png" class="relax_icon" alt="">
 						</div>
 						<div class="title">Разнообразные <br>активности на воде</div>
 						<div class="text">В любое время лично для вас доступны плавание в кристально чистой воде в открытом море, рыбалка, снорклинг, вейкбординг, плавание на каяках и многое другое.</div>
 					</div>
 					<div class="relax_item">
 						<div class="icon_wrap">
-							<img src="img/disco-ball-01.png" class="relax_icon" alt="">
+							<img data-src="img/disco-ball-01.png" class="relax_icon" alt="">
 						</div>
 						<div class="title">Необычная атмосфера <br>для праздника</div>
 						<div class="text">Вы можете разработать программу отдыха в соответствии со своими предпочтениями (выбрать меню, напитки, развлечения), а также заказать дополнительные услуги — спа-программу, массаж, DJ, живую музыку, личного шеф-повара и пр. Выбор услуг ограничен только вашей фантазией.</div>
@@ -89,7 +89,7 @@
 		<div class="container">
 			<div class="section_content">
 				<div class="image_wrap">
-					<img src="img/IMG_1612.jpg" alt="">
+					<img data-src="img/IMG_1612.jpg" alt="">
 				</div>
 				<div class="text_wrap">
 					<h2 class="animation_1">Преимущества отдыха <br>с FIVE STAR SEA CRUISES</h2>
@@ -97,19 +97,19 @@
 					 Мы практикуем гибкий подход к клиенту — слышим ваши желания и претворяем их в жизнь. Наша цель — безупречный сервис и высокое качество услуг.</div>
 					<div class="advantages_items">
 						<div class="advantages_item">
-							<img src="img/diploma.png" class="advantages_icon" alt="">
+							<img data-src="img/diploma.png" class="advantages_icon" alt="">
 							<div class="title">Все лицензии и <br>сертификаты</div>
 						</div>
 						<div class="advantages_item">
-							<img src="img/first-aid-kit.png" class="advantages_icon" alt="">
+							<img data-src="img/first-aid-kit.png" class="advantages_icon" alt="">
 							<div class="title">Умение оказывать <br>первую помощь</div>
 						</div>
 						<div class="advantages_item">
-							<img src="img/eng-icon.png" class="advantages_icon" alt="">
+							<img data-src="img/eng-icon.png" class="advantages_icon" alt="">
 							<div class="title">Знание английского <br>языка</div>
 						</div>
 						<div class="advantages_item">
-							<img src="img/diploma2.png" class="advantages_icon" alt="">
+							<img data-src="img/diploma2.png" class="advantages_icon" alt="">
 							<div class="title">Стаж работы <br>от и до</div>
 						</div>
 					</div>
@@ -129,7 +129,7 @@
 				<div class="team_items">
 					<div class="team_item">
 						<div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-						<img src="img/team1.png" class="team_photo" alt="">
+						<img data-src="img/team1.png" class="team_photo" alt="">
 						<div class="name">Carlos Lott</div>
 						<div class="position">капитан</div>
 						<hr>
@@ -137,7 +137,7 @@
 					</div>
 					<div class="team_item">
 						<div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-						<img src="img/team2.png" class="team_photo" alt="">
+						<img data-src="img/team2.png" class="team_photo" alt="">
 						<div class="name">Carlos Lott</div>
 						<div class="position">капитан - стаж 15 лет</div>
 						<hr>
@@ -145,7 +145,7 @@
 					</div>
 					<div class="team_item">
 						<div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-						<img src="img/team3.png" class="team_photo" alt="">
+						<img data-src="img/team3.png" class="team_photo" alt="">
 						<div class="name">Carlos Lott</div>
 						<div class="position">капитан</div>
 						<hr>
@@ -153,7 +153,7 @@
 					</div>
 					<div class="team_item">
 						<div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-						<img src="img/team4.png" class="team_photo" alt="">
+						<img data-src="img/team4.png" class="team_photo" alt="">
 						<div class="name">Carlos Lott</div>
 						<div class="position">капитан</div>
 						<hr>
@@ -222,7 +222,7 @@
 				<div class="select_items">
 					<div class="select_item">
 						<div class="image_wrap">
-							<img src="img/select1.jpg" alt="">
+							<img data-src="img/select1.jpg" alt="">
 						</div>
 						<div class="text_wrap">
 							<div class="title">Princess 64</div>
@@ -268,7 +268,7 @@
 					</div>
 					<div class="select_item">
 						<div class="image_wrap">
-							<img src="img/select2.jpg" alt="">
+							<img data-src="img/select2.jpg" alt="">
 						</div>
 						<div class="text_wrap">
 							<div class="title">Lagoon/Leopard</div>
@@ -334,7 +334,7 @@
 		<div class="container">
 			<div class="section_content">
 				<div class="image_wrap">
-					<img src="img/maxresdefault.jpg" alt="">
+					<img data-src="img/maxresdefault.jpg" alt="">
 					<a data-fancybox href="https://www.youtube.com/watch?v=qHgekq6pTbY" class="video_play"><i class="fas fa-play"></i></a>
 				</div>
 				<div class="text_wrap">
@@ -357,42 +357,42 @@
 				<div class="description animation_1">Мы предлагаем на борту блюда из ресторана домашнего типа VESU, где хозяева влюблены в свое дело. Еда готовится в день отправления. В длительные поездки с вами может отправиться шеф-повара за дополнительную плату, или вы можете останавливаться на ночь в гостиницах на островах и ужинать в местных ресторанах.</div>
 				<div class="menu_items">
 					<div class="menu_item">
-						<img src="img/menu1.jpg" alt="" class="menu_img">
+						<img data-src="img/menu1.jpg" alt="" class="menu_img">
 						<div class="text_wrap">
 							<div class="title">Классическое круизное меню</div>
 							<div class="btn_style_2 show_menu_slider">ПОДРОБНЕЕ</div>
 						</div>
 					</div>
 					<div class="menu_item">
-						<img src="img/menu2.jpg" alt="" class="menu_img">
+						<img data-src="img/menu2.jpg" alt="" class="menu_img">
 						<div class="text_wrap">
 							<div class="title">Тайское <br>меню</div>
 							<div class="btn_style_2 show_menu_slider">ПОДРОБНЕЕ</div>
 						</div>
 					</div>
 					<div class="menu_item">
-						<img src="img/menu3.jpg" alt="" class="menu_img">
+						<img data-src="img/menu3.jpg" alt="" class="menu_img">
 						<div class="text_wrap">
 							<div class="title">Детское <br>меню</div>
 							<div class="btn_style_2 show_menu_slider">ПОДРОБНЕЕ</div>
 						</div>
 					</div>
 					<div class="menu_item">
-						<img src="img/menu4.jpg" alt="" class="menu_img">
+						<img data-src="img/menu4.jpg" alt="" class="menu_img">
 						<div class="text_wrap">
 							<div class="title">Вегетарианское меню</div>
 							<div class="btn_style_2 show_menu_slider">ПОДРОБНЕЕ</div>
 						</div>
 					</div>
 					<div class="menu_item">
-						<img src="img/menu5.jpg" alt="" class="menu_img">
+						<img data-src="img/menu5.jpg" alt="" class="menu_img">
 						<div class="text_wrap">
 							<div class="title">Барбекю</div>
 							<div class="btn_style_2 show_menu_slider">ПОДРОБНЕЕ</div>
 						</div>
 					</div>
 					<div class="menu_item">
-						<img src="img/menu6.jpg" alt="" class="menu_img">
+						<img data-src="img/menu6.jpg" alt="" class="menu_img">
 						<div class="text_wrap">
 							<div class="title">Морепродукты</div>
 							<div class="btn_style_2 show_menu_slider">ПОДРОБНЕЕ</div>
@@ -417,7 +417,7 @@
 							Сервис был потрясающим, вся команда была отзывчивой. Спасибо "Moon Breeze"</div>
 						</div>
 						<div class="image_wrap">
-							<img src="img/1.jpg" alt="" class="menu_img">
+							<img data-src="img/1.jpg" alt="" class="menu_img">
 						</div>
 					</div>
 					<div class="reviews_item">
@@ -426,7 +426,7 @@
 							Сервис был потрясающим, вся команда была отзывчивой. Спасибо "Moon Breeze"</div>
 						</div>
 						<div class="image_wrap">
-							<img src="img/2.jpg" alt="" class="menu_img">
+							<img data-src="img/2.jpg" alt="" class="menu_img">
 						</div>
 					</div>
 					<div class="reviews_item">
@@ -435,7 +435,7 @@
 							Сервис был потрясающим, вся команда была отзывчивой. Спасибо "Moon Breeze"</div>
 						</div>
 						<div class="image_wrap">
-							<img src="img/3.jpg" alt="" class="menu_img">
+							<img data-src="img/3.jpg" alt="" class="menu_img">
 						</div>
 					</div>
 					<div class="reviews_item">
@@ -444,7 +444,7 @@
 							Сервис был потрясающим, вся команда была отзывчивой. Спасибо "Moon Breeze"</div>
 						</div>
 						<div class="image_wrap">
-							<img src="img/4.jpg" alt="" class="menu_img">
+							<img data-src="img/4.jpg" alt="" class="menu_img">
 						</div>
 					</div>
 					<div class="reviews_item">
@@ -453,7 +453,7 @@
 							Сервис был потрясающим, вся команда была отзывчивой. Спасибо "Moon Breeze"</div>
 						</div>
 						<div class="image_wrap">
-							<img src="img/5.jpg" alt="" class="menu_img">
+							<img data-src="img/5.jpg" alt="" class="menu_img">
 						</div>
 					</div>
 					<div class="reviews_item">
@@ -462,7 +462,7 @@
 							Сервис был потрясающим, вся команда была отзывчивой. Спасибо "Moon Breeze"</div>
 						</div>
 						<div class="image_wrap">
-							<img src="img/6.jpg" alt="" class="menu_img">
+							<img data-src="img/6.jpg" alt="" class="menu_img">
 						</div>
 					</div>
 					<div class="reviews_item">
@@ -471,7 +471,7 @@
 							Сервис был потрясающим, вся команда была отзывчивой. Спасибо "Moon Breeze"</div>
 						</div>
 						<div class="image_wrap">
-							<img src="img/7.jpg" alt="" class="menu_img">
+							<img data-src="img/7.jpg" alt="" class="menu_img">
 						</div>
 					</div>
 					<div class="reviews_item">
@@ -480,7 +480,7 @@
 							Сервис был потрясающим, вся команда была отзывчивой. Спасибо "Moon Breeze"</div>
 						</div>
 						<div class="image_wrap">
-							<img src="img/8.jpg" alt="" class="menu_img">
+							<img data-src="img/8.jpg" alt="" class="menu_img">
 						</div>
 					</div>
 				</div>
@@ -491,7 +491,7 @@
 
 
 	<section id="steps" class="steps">
-		<img src="img/bg4.png" alt="" class="bg4">
+		<img data-src="img/bg4.png" alt="" class="bg4">
 		<div class="container">
 			<div class="section_content">
 				<h2 class="animation_1">3 шага до незабываемого путешествия</h2>
@@ -581,7 +581,7 @@
 		</div>
 	</div>
 
-	<img src="img/bg_footer_3.jpg" class="before_footer_image" alt="">
+	<img data-src="img/bg_footer_3.jpg" class="before_footer_image" alt="">
 
 
 
