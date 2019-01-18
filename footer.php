@@ -418,7 +418,7 @@
 	<script>loadCSS( "css/fontawesome-all.min.css?ver=1.0.0", false, "all" );</script>
 	<script>loadCSS( "css/jquery.fancybox.min.css?ver=1.0.0", false, "all" );</script>
 	<script>loadCSS( "css/datepicker.min.css?ver=1.0.0", false, "all" );</script>
-	<script>loadCSS( "css/main.min.css?ver=1.0.37", false, "all" );</script>
+	<script>loadCSS( "css/main.min.css?ver=1.0.39", false, "all" );</script>
 	<!-- Load CSS End -->
 
 	<!-- Load Scripts Start -->

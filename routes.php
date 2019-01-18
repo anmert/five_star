@@ -24,7 +24,7 @@
 		</div>
 	</section>
 	
-	<div class="padding_wrap" style="height:100px"></div>
+	<div class="padding_wrap_1" style="height:100px"></div>
 
 	<section id="photo_gallery" class="photo_gallery">
 		<div class="container">
